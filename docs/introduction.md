@@ -95,9 +95,10 @@ def calc_ewmac_forecast(price, Lfast, Lslow=None):
     Calculate the ewmac trading rule forecast, given a price and EWMA speeds Lfast, Lslow and vol_lookback
 
     """
-    ## price: This is the stitched price series
-    ## We can't use the price of the contract we're trading, or the volatility will be jumpy
-    ## And we'll miss out on the rolldown. See https://qoppac.blogspot.com/2015/05/systems-building-futures-rolling.html
+    ## price: This is the stitched price series 拼接价格序列
+    ## We can't use the price of the contract we're trading, or the volatility will be jumpy 如果直接使用实际价格，由于合约间的价格差以，计算出的波动率会跳变
+    ## And we'll miss out on the rolldown. 直接使用实际合约价格，还会错失展期/下滑收益 
+    ## See https://qoppac.blogspot.com/2015/05/systems-building-futures-rolling.html
 
     price = price.resample("1B").last()
     if Lslow is None:
@@ -178,7 +179,7 @@ import syscore.pandas.strategy_functions
 account.sharpe()  ## get the Sharpe Ratio (annualised), and any other statistic which is in the stats list
 account.curve().plot()  ## plot the cumulative account curve (equivalent to account.cumsum().plot() inicidentally)
 account.percent  ## gives a % curve
-syscore.pandas.strategy_functions.drawdown().plot()  ## see the drawdowns as a percentage
+account.drawdown().plot()  ## see the drawdowns as a percentage
 account.weekly  ## weekly returns (also daily [default], monthly, annual)
 account.gross.ann_mean()  ## annual mean for gross returns, also costs (there are none in this simple example)
 ```

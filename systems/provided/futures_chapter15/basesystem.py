@@ -38,23 +38,17 @@ def futures_system(
 
     >>> system=futures_system()
     >>> system
-    System with stages: accounts, portfolio, positionSize, rawdata, combForecast, forecastScaleCap, rules
+    System base_system with .config, .data, and .stages: accounts, portfolio, positionSize, rawdata, combForecast, forecastScaleCap, rules
     >>> system.rules.get_raw_forecast("EDOLLAR", "ewmac2_8").dropna().head(2)
-                ewmac2_8
-    1983-10-10  0.695929
-    1983-10-11 -0.604704
-
-                ewmac2_8
-    2015-04-21  0.172416
-    2015-04-22 -0.477559
+    index
+    1984-04-06   -1.146346
+    1984-04-09   -0.867647
+    Freq: B, Name: price, dtype: float64
     >>> system.rules.get_raw_forecast("EDOLLAR", "carry").dropna().head(2)
-                   carry
-    1983-10-10  0.952297
-    1983-10-11  0.854075
-
-                   carry
-    2015-04-21  0.350892
-    2015-04-22  0.350892
+    index
+    1984-04-06    0.950172
+    1984-04-09    1.010585
+    Freq: B, dtype: float64
     """
 
     if data is arg_not_supplied:

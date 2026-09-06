@@ -25,6 +25,7 @@ restats
 # venv
 env/
 venv/
+.venv-py312/
 
 # libreoffice
 .~lock.*
