@@ -1,0 +1,79 @@
+{
+  "contracts": {
+    "20260600": {
+      "rows": 45,
+      "start": "2026-04-17 23:00:00",
+      "end": "2026-06-22 23:00:00",
+      "ohlcv_warning_dates": [],
+      "zero_volume_rows": 1,
+      "excluded_after_expiry": [
+        "2026-06-22 23:00:00"
+      ],
+      "usable_coverage": {
+        "rows": 44,
+        "start": "2026-04-17 23:00:00",
+        "end": "2026-06-18 23:00:00",
+        "ohlcv_warning_dates": [],
+        "zero_volume_rows": 0
+      }
+    },
+    "20260900": {
+      "rows": 130,
+      "start": "2026-03-04 23:00:00",
+      "end": "2026-09-04 23:00:00",
+      "ohlcv_warning_dates": [],
+      "zero_volume_rows": 0,
+      "excluded_after_expiry": [],
+      "usable_coverage": {
+        "rows": 130,
+        "start": "2026-03-04 23:00:00",
+        "end": "2026-09-04 23:00:00",
+        "ohlcv_warning_dates": [],
+        "zero_volume_rows": 0
+      }
+    },
+    "20261200": {
+      "rows": 251,
+      "start": "2025-09-08 23:00:00",
+      "end": "2026-09-04 23:00:00",
+      "ohlcv_warning_dates": [],
+      "zero_volume_rows": 125,
+      "excluded_after_expiry": [],
+      "usable_coverage": {
+        "rows": 251,
+        "start": "2025-09-08 23:00:00",
+        "end": "2026-09-04 23:00:00",
+        "ohlcv_warning_dates": [],
+        "zero_volume_rows": 125
+      }
+    }
+  },
+  "source_sha256": {
+    "data\\bootstrap\\sp500_first_roll\\20260600_raw.parquet": "9db780150a19d2433ec66bdafafdb9173cc1e4fa269427c4af3798d1a3682fa8",
+    "data\\bootstrap\\sp500_first_roll\\20260900_raw.parquet": "674ddc9861193c57f57f65f0043b1c23d889ce26192ec046deffff630096d899",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet": "686b119b36e93c437b92e3867e6239f8a94e87f4a04af640bd14f34afe1e55f3"
+  },
+  "derived": {
+    "roll_date": "2026-06-10 23:00:00",
+    "roll_spread": 60.25,
+    "overlap_rows": 44,
+    "rows": 98,
+    "start": "2026-04-17 23:00:00",
+    "end": "2026-09-04 23:00:00",
+    "calendar_roles": [
+      "start_boundary",
+      "real_roll",
+      "end_boundary"
+    ]
+  },
+  "sha256": {
+    "data\\bootstrap\\sp500_first_roll\\bounded_calendar.csv": "1c2d699326f4b1bc80bc31540b5f86bd067db884b80580d37cfb5c93924473a7",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet": "773a4bc0098eb3ae5f251c6f714070f4ace35f1bed9122d98d26793963fd5e7a",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet": "773a4bc0098eb3ae5f251c6f714070f4ace35f1bed9122d98d26793963fd5e7a",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet": "f647e8b8e658d8bed9faf7f1b8985fc7964486b72a529d4c8c21b74003095ca9",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet": "e4bd6cda1b0ab2878bc60bbf5f70d5d879ccf72fbce9f407da5feaee3dfe680e",
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet": "33d51fbc79980fc2ecb3ef2f64df74589e28496e800a9887714c4698e85a0f37"
+  }
+}

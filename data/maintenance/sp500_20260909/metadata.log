@@ -1,0 +1,448 @@
+{'component': 'mongoFuturesContractData', 'instrument_code': 'SP500', 'contract_date': '20261200'} Added contract SP500 20261200
+{'instrument_code': 'SP500', 'contract_date': '20261200'} Contract SP500/20261200 now added to database and sampling
+{'component': 'mongoFuturesContractData', 'instrument_code': 'SP500', 'contract_date': '20270300'} Added contract SP500 20270300
+{'instrument_code': 'SP500', 'contract_date': '20270300'} Contract SP500/20270300 now added to database and sampling
+{'component': 'mongoFuturesContractData', 'instrument_code': 'SP500', 'contract_date': '20260900'} Added contract SP500 20260900
+{'instrument_code': 'SP500', 'contract_date': '20260900'} Contract SP500/20260900 now added to database and sampling
+{'component': 'mongoIbBrokerClientIdData'} Locked IB client ID 100
+Using proactor: IocpProactor
+Connecting to 127.0.0.1:4002 with clientId 100...
+Connected
+<<< 178,20260909 20:57:04 China Standard Time
+>>> 71,2,100,
+Logged on to server version 178
+<<< 9,1,1
+<<< 15,1,DUT077119
+API connection ready
+>>> 61,1
+>>> 6,2,1,tradersenlos
+>>> 76,1,1,DUT077119,,0
+<<< 4,2,-1,2104,Market data farm connection is OK:hfarm,
+Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+<<< 4,2,-1,2104,Market data farm connection is OK:usopt.nj,
+Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+<<< 4,2,-1,2104,Market data farm connection is OK:usfarm,
+Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+<<< 4,2,-1,2106,HMDS data farm connection is OK:apachmds,
+Warning 2106, reqId -1: HMDS data farm connection is OK:apachmds
+<<< 4,2,-1,2106,HMDS data farm connection is OK:ushmds,
+Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+<<< 4,2,-1,2158,Sec-def data farm connection is OK:secdefhk,
+Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk
+<<< 61,3,DUT077119,265598,AAPL,STK,,0.0,,,NASDAQ,USD,AAPL,NMS,1,328.95
+position: Position(account='DUT077119', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=1.0, avgCost=328.95)
+<<< 61,3,DUT077119,320227571,QQQ,STK,,0.0,,,NASDAQ,USD,QQQ,NMS,100,711.850003
+position: Position(account='DUT077119', contract=Stock(conId=320227571, symbol='QQQ', exchange='NASDAQ', currency='USD', localSymbol='QQQ', tradingClass='NMS'), position=100.0, avgCost=711.850003)
+<<< 62,1
+<<< 6,2,$LEDGER-AccountOrGroup,DUT077119,BASE,DUT077119
+<<< 6,2,$LEDGER-AccountOrGroup,DUT077119,USD,DUT077119
+<<< 6,2,$LEDGER-AccruedCash,491.71,BASE,DUT077119
+<<< 6,2,$LEDGER-AccruedCash,491.71,USD,DUT077119
+<<< 6,2,$LEDGER-CashBalance,928486.05,BASE,DUT077119
+<<< 6,2,$LEDGER-CashBalance,928486.05,USD,DUT077119
+<<< 6,2,$LEDGER-CorporateBondValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-CorporateBondValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-Cryptocurrency,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-Cryptocurrency,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-Currency,BASE,BASE,DUT077119
+<<< 6,2,$LEDGER-Currency,USD,USD,DUT077119
+<<< 6,2,$LEDGER-ExchangeRate,1.00,BASE,DUT077119
+<<< 6,2,$LEDGER-ExchangeRate,1.00,USD,DUT077119
+<<< 6,2,$LEDGER-FundValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-FundValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-FutureOptionValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-FutureOptionValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-FuturesPNL,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-FuturesPNL,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-FxCashBalance,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-FxCashBalance,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-IssuerOptionValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-IssuerOptionValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-MoneyMarketFundValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-MoneyMarketFundValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-MutualFundValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-MutualFundValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-NetDividend,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-NetDividend,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-NetLiquidationByCurrency,1000750.9017,BASE,DUT077119
+<<< 6,2,$LEDGER-NetLiquidationByCurrency,1000750.9017,USD,DUT077119
+<<< 6,2,$LEDGER-OptionMarketValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-OptionMarketValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-RealCurrency,BASE,BASE,DUT077119
+<<< 6,2,$LEDGER-RealCurrency,USD,USD,DUT077119
+<<< 6,2,$LEDGER-RealizedPnL,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-RealizedPnL,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-StockMarketValue,71773.14,BASE,DUT077119
+<<< 6,2,$LEDGER-StockMarketValue,71773.14,USD,DUT077119
+<<< 6,2,$LEDGER-TBillValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-TBillValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-TBondValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-TBondValue,0.00,USD,DUT077119
+<<< 6,2,$LEDGER-TotalCashBalance,928486.05,BASE,DUT077119
+<<< 6,2,$LEDGER-TotalCashBalance,928486.05,USD,DUT077119
+<<< 6,2,$LEDGER-UnrealizedPnL,259.19,BASE,DUT077119
+<<< 6,2,$LEDGER-UnrealizedPnL,259.19,USD,DUT077119
+<<< 6,2,$LEDGER-WarrantValue,0.00,BASE,DUT077119
+<<< 6,2,$LEDGER-WarrantValue,0.00,USD,DUT077119
+<<< 6,2,AccountCode,DUT077119,,DUT077119
+<<< 6,2,AccountReady,true,,DUT077119
+<<< 6,2,AccountType,INDIVIDUAL,,DUT077119
+<<< 6,2,AccruedCash,491.71,USD,DUT077119
+<<< 6,2,AccruedCash-C,0.00,USD,DUT077119
+<<< 6,2,AccruedCash-P,0.00,USD,DUT077119
+<<< 6,2,AccruedCash-S,491.71,USD,DUT077119
+<<< 6,2,AccruedDividend,0.00,USD,DUT077119
+<<< 6,2,AccruedDividend-C,0.00,USD,DUT077119
+<<< 6,2,AccruedDividend-P,0.00,USD,DUT077119
+<<< 6,2,AccruedDividend-S,0.00,USD,DUT077119
+<<< 6,2,AvailableFunds,982315.91,USD,DUT077119
+<<< 6,2,AvailableFunds-C,0.00,USD,DUT077119
+<<< 6,2,AvailableFunds-P,0.00,USD,DUT077119
+<<< 6,2,AvailableFunds-S,982315.91,USD,DUT077119
+<<< 6,2,Billable,0.00,USD,DUT077119
+<<< 6,2,Billable-C,0.00,USD,DUT077119
+<<< 6,2,Billable-P,0.00,USD,DUT077119
+<<< 6,2,Billable-S,0.00,USD,DUT077119
+<<< 6,2,BuyingPower,3929263.63,USD,DUT077119
+<<< 6,2,ColumnPrio-C,2,,DUT077119
+<<< 6,2,ColumnPrio-P,5,,DUT077119
+<<< 6,2,ColumnPrio-S,1,,DUT077119
+<<< 6,2,Cushion,1,,DUT077119
+<<< 6,2,EquityWithLoanValue,1000259.19,USD,DUT077119
+<<< 6,2,EquityWithLoanValue-C,0.00,USD,DUT077119
+<<< 6,2,EquityWithLoanValue-P,0.00,USD,DUT077119
+<<< 6,2,EquityWithLoanValue-S,1000259.19,USD,DUT077119
+<<< 6,2,ExcessLiquidity,982315.91,USD,DUT077119
+<<< 6,2,ExcessLiquidity-C,0.00,USD,DUT077119
+<<< 6,2,ExcessLiquidity-P,0.00,USD,DUT077119
+<<< 6,2,ExcessLiquidity-S,982315.91,USD,DUT077119
+<<< 6,2,FullAvailableFunds,982315.91,USD,DUT077119
+<<< 6,2,FullAvailableFunds-C,0.00,USD,DUT077119
+<<< 6,2,FullAvailableFunds-P,0.00,USD,DUT077119
+<<< 6,2,FullAvailableFunds-S,982315.91,USD,DUT077119
+<<< 6,2,FullExcessLiquidity,982315.91,USD,DUT077119
+<<< 6,2,FullExcessLiquidity-C,0.00,USD,DUT077119
+<<< 6,2,FullExcessLiquidity-P,0.00,USD,DUT077119
+<<< 6,2,FullExcessLiquidity-S,982315.91,USD,DUT077119
+<<< 6,2,FullInitMarginReq,17943.29,USD,DUT077119
+<<< 6,2,FullInitMarginReq-C,0.00,USD,DUT077119
+<<< 6,2,FullInitMarginReq-P,0.00,USD,DUT077119
+<<< 6,2,FullInitMarginReq-S,17943.29,USD,DUT077119
+<<< 6,2,FullMaintMarginReq,17943.29,USD,DUT077119
+<<< 6,2,FullMaintMarginReq-C,0.00,USD,DUT077119
+<<< 6,2,FullMaintMarginReq-P,0.00,USD,DUT077119
+<<< 6,2,FullMaintMarginReq-S,17943.29,USD,DUT077119
+<<< 6,2,GrossPositionValue,71773.14,USD,DUT077119
+<<< 6,2,GrossPositionValue-C,0.00,USD,DUT077119
+<<< 6,2,GrossPositionValue-S,71773.14,USD,DUT077119
+<<< 6,2,Guarantee,0.00,USD,DUT077119
+<<< 6,2,Guarantee-C,0.00,USD,DUT077119
+<<< 6,2,Guarantee-P,0.00,USD,DUT077119
+<<< 6,2,Guarantee-S,0.00,USD,DUT077119
+<<< 6,2,IncentiveCoupons,0.00,USD,DUT077119
+<<< 6,2,IncentiveCoupons-C,0.00,USD,DUT077119
+<<< 6,2,IncentiveCoupons-P,0.00,USD,DUT077119
+<<< 6,2,IncentiveCoupons-S,0.00,USD,DUT077119
+<<< 6,2,IndianStockHaircut,0.00,USD,DUT077119
+<<< 6,2,IndianStockHaircut-C,0.00,USD,DUT077119
+<<< 6,2,IndianStockHaircut-P,0.00,USD,DUT077119
+<<< 6,2,IndianStockHaircut-S,0.00,USD,DUT077119
+<<< 6,2,InitMarginReq,17943.29,USD,DUT077119
+<<< 6,2,InitMarginReq-C,0.00,USD,DUT077119
+<<< 6,2,InitMarginReq-P,0.00,USD,DUT077119
+<<< 6,2,InitMarginReq-S,17943.29,USD,DUT077119
+<<< 6,2,Leverage-C,0.00,,DUT077119
+<<< 6,2,Leverage-S,0.07,,DUT077119
+<<< 6,2,LookAheadAvailableFunds,982315.91,USD,DUT077119
+<<< 6,2,LookAheadAvailableFunds-C,0.00,USD,DUT077119
+<<< 6,2,LookAheadAvailableFunds-P,0.00,USD,DUT077119
+<<< 6,2,LookAheadAvailableFunds-S,982315.91,USD,DUT077119
+<<< 6,2,LookAheadExcessLiquidity,982315.91,USD,DUT077119
+<<< 6,2,LookAheadExcessLiquidity-C,0.00,USD,DUT077119
+<<< 6,2,LookAheadExcessLiquidity-P,0.00,USD,DUT077119
+<<< 6,2,LookAheadExcessLiquidity-S,982315.91,USD,DUT077119
+<<< 6,2,LookAheadInitMarginReq,17943.29,USD,DUT077119
+<<< 6,2,LookAheadInitMarginReq-C,0.00,USD,DUT077119
+<<< 6,2,LookAheadInitMarginReq-P,0.00,USD,DUT077119
+<<< 6,2,LookAheadInitMarginReq-S,17943.29,USD,DUT077119
+<<< 6,2,LookAheadMaintMarginReq,17943.29,USD,DUT077119
+<<< 6,2,LookAheadMaintMarginReq-C,0.00,USD,DUT077119
+<<< 6,2,LookAheadMaintMarginReq-P,0.00,USD,DUT077119
+<<< 6,2,LookAheadMaintMarginReq-S,17943.29,USD,DUT077119
+<<< 6,2,LookAheadNextChange,1788960600,,DUT077119
+<<< 6,2,MaintMarginReq,17943.29,USD,DUT077119
+<<< 6,2,MaintMarginReq-C,0.00,USD,DUT077119
+<<< 6,2,MaintMarginReq-P,0.00,USD,DUT077119
+<<< 6,2,MaintMarginReq-S,17943.29,USD,DUT077119
+<<< 6,2,NLVAndMarginInReview,false,,DUT077119
+<<< 6,2,NetLiquidation,1000750.90,USD,DUT077119
+<<< 6,2,NetLiquidation-C,0.00,USD,DUT077119
+<<< 6,2,NetLiquidation-P,0.00,USD,DUT077119
+<<< 6,2,NetLiquidation-S,1000750.90,USD,DUT077119
+<<< 6,2,NetLiquidationUncertainty,0.00,USD,DUT077119
+<<< 6,2,PASharesValue,0.00,USD,DUT077119
+<<< 6,2,PASharesValue-C,0.00,USD,DUT077119
+<<< 6,2,PASharesValue-P,0.00,USD,DUT077119
+<<< 6,2,PASharesValue-S,0.00,USD,DUT077119
+<<< 6,2,PhysicalCertificateValue,0.00,USD,DUT077119
+<<< 6,2,PhysicalCertificateValue-C,0.00,USD,DUT077119
+<<< 6,2,PhysicalCertificateValue-P,0.00,USD,DUT077119
+<<< 6,2,PhysicalCertificateValue-S,0.00,USD,DUT077119
+<<< 6,2,PostExpirationExcess,0.00,USD,DUT077119
+<<< 6,2,PostExpirationExcess-C,0.00,USD,DUT077119
+<<< 6,2,PostExpirationExcess-P,0.00,USD,DUT077119
+<<< 6,2,PostExpirationExcess-S,0.00,USD,DUT077119
+<<< 6,2,PostExpirationMargin,0.00,USD,DUT077119
+<<< 6,2,PostExpirationMargin-C,0.00,USD,DUT077119
+<<< 6,2,PostExpirationMargin-P,0.00,USD,DUT077119
+<<< 6,2,PostExpirationMargin-S,0.00,USD,DUT077119
+<<< 6,2,RegTEquity,1000750.90,USD,DUT077119
+<<< 6,2,RegTEquity-S,1000750.90,USD,DUT077119
+<<< 6,2,RegTMargin,35886.57,USD,DUT077119
+<<< 6,2,RegTMargin-S,35886.57,USD,DUT077119
+<<< 6,2,SMA,964864.33,USD,DUT077119
+<<< 6,2,SMA-S,964864.33,USD,DUT077119
+<<< 6,2,SegmentTitle-C,US Commodities,,DUT077119
+<<< 6,2,SegmentTitle-P,Crypto at Paxos,,DUT077119
+<<< 6,2,SegmentTitle-S,US Securities,,DUT077119
+<<< 6,2,SettledCashByDate,20260909:928486.05,BASE,DUT077119
+<<< 6,2,SettledCashByDate,20260909:928486.05,USD,DUT077119
+<<< 6,2,SettledCashByDate-C,20260909:0,BASE,DUT077119
+<<< 6,2,SettledCashByDate-C,20260909:0,USD,DUT077119
+<<< 6,2,SettledCashByDate-P,20260909:0,BASE,DUT077119
+<<< 6,2,SettledCashByDate-P,20260909:0,USD,DUT077119
+<<< 6,2,SettledCashByDate-S,20260909:928486.05,BASE,DUT077119
+<<< 6,2,SettledCashByDate-S,20260909:928486.05,USD,DUT077119
+<<< 6,2,TotalCashValue,928486.05,USD,DUT077119
+<<< 6,2,TotalCashValue-C,0.00,USD,DUT077119
+<<< 6,2,TotalCashValue-P,0.00,USD,DUT077119
+<<< 6,2,TotalCashValue-S,928486.05,USD,DUT077119
+<<< 6,2,TotalDebitCardPendingCharges,0.00,USD,DUT077119
+<<< 6,2,TotalDebitCardPendingCharges-C,0.00,USD,DUT077119
+<<< 6,2,TotalDebitCardPendingCharges-P,0.00,USD,DUT077119
+<<< 6,2,TotalDebitCardPendingCharges-S,0.00,USD,DUT077119
+<<< 6,2,TradingType-S,STKNOPT,,DUT077119
+<<< 6,2,WhatIfPMEnabled,true,,DUT077119
+<<< 7,8,265598,AAPL,STK,,0,0,,NASDAQ,USD,AAPL,NMS,1,315.14001465,315.14,328.95,-13.81,0.0,DUT077119
+updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=1.0, marketPrice=315.14001465, marketValue=315.14, averageCost=328.95, unrealizedPNL=-13.81, realizedPNL=0.0, account='DUT077119')
+<<< 8,1,20:55
+<<< 7,8,320227571,QQQ,STK,,0,0,,NASDAQ,USD,QQQ,NMS,100,714.5800171,71458.0,711.850003,273.0,0.0,DUT077119
+updatePortfolio: PortfolioItem(contract=Stock(conId=320227571, symbol='QQQ', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='QQQ', tradingClass='NMS'), position=100.0, marketPrice=714.5800171, marketValue=71458.0, averageCost=711.850003, unrealizedPNL=273.0, realizedPNL=0.0, account='DUT077119')
+<<< 8,1,20:55
+<<< 8,1,20:55
+<<< 54,1,DUT077119
+<<< 73,1,1,DUT077119,,AccountCode,DUT077119,
+<<< 73,1,1,DUT077119,,AccountReady,true,
+<<< 73,1,1,DUT077119,,AccountType,INDIVIDUAL,
+<<< 73,1,1,DUT077119,,AccruedCash,491.71,USD
+<<< 73,1,1,DUT077119,,AccruedCash-C,0.00,USD
+<<< 73,1,1,DUT077119,,AccruedCash-P,0.00,USD
+<<< 73,1,1,DUT077119,,AccruedCash-S,491.71,USD
+<<< 73,1,1,DUT077119,,AccruedDividend,0.00,USD
+<<< 73,1,1,DUT077119,,AccruedDividend-C,0.00,USD
+<<< 73,1,1,DUT077119,,AccruedDividend-P,0.00,USD
+<<< 73,1,1,DUT077119,,AccruedDividend-S,0.00,USD
+<<< 73,1,1,DUT077119,,AvailableFunds,982315.91,USD
+<<< 73,1,1,DUT077119,,AvailableFunds-C,0.00,USD
+<<< 73,1,1,DUT077119,,AvailableFunds-P,0.00,USD
+<<< 73,1,1,DUT077119,,AvailableFunds-S,982315.91,USD
+<<< 73,1,1,DUT077119,,Billable,0.00,USD
+<<< 73,1,1,DUT077119,,Billable-C,0.00,USD
+<<< 73,1,1,DUT077119,,Billable-P,0.00,USD
+<<< 73,1,1,DUT077119,,Billable-S,0.00,USD
+<<< 73,1,1,DUT077119,,BuyingPower,3929263.63,USD
+<<< 73,1,1,DUT077119,,ColumnPrio-C,2,
+<<< 73,1,1,DUT077119,,ColumnPrio-P,5,
+<<< 73,1,1,DUT077119,,ColumnPrio-S,1,
+<<< 73,1,1,DUT077119,,Cushion,1,
+<<< 73,1,1,DUT077119,,EquityWithLoanValue,1000259.19,USD
+<<< 73,1,1,DUT077119,,EquityWithLoanValue-C,0.00,USD
+<<< 73,1,1,DUT077119,,EquityWithLoanValue-P,0.00,USD
+<<< 73,1,1,DUT077119,,EquityWithLoanValue-S,1000259.19,USD
+<<< 73,1,1,DUT077119,,ExcessLiquidity,982315.91,USD
+<<< 73,1,1,DUT077119,,ExcessLiquidity-C,0.00,USD
+<<< 73,1,1,DUT077119,,ExcessLiquidity-P,0.00,USD
+<<< 73,1,1,DUT077119,,ExcessLiquidity-S,982315.91,USD
+<<< 73,1,1,DUT077119,,FullAvailableFunds,982315.91,USD
+<<< 73,1,1,DUT077119,,FullAvailableFunds-C,0.00,USD
+<<< 73,1,1,DUT077119,,FullAvailableFunds-P,0.00,USD
+<<< 73,1,1,DUT077119,,FullAvailableFunds-S,982315.91,USD
+<<< 73,1,1,DUT077119,,FullExcessLiquidity,982315.91,USD
+<<< 73,1,1,DUT077119,,FullExcessLiquidity-C,0.00,USD
+<<< 73,1,1,DUT077119,,FullExcessLiquidity-P,0.00,USD
+<<< 73,1,1,DUT077119,,FullExcessLiquidity-S,982315.91,USD
+<<< 73,1,1,DUT077119,,FullInitMarginReq,17943.29,USD
+<<< 73,1,1,DUT077119,,FullInitMarginReq-C,0.00,USD
+<<< 73,1,1,DUT077119,,FullInitMarginReq-P,0.00,USD
+<<< 73,1,1,DUT077119,,FullInitMarginReq-S,17943.29,USD
+<<< 73,1,1,DUT077119,,FullMaintMarginReq,17943.29,USD
+<<< 73,1,1,DUT077119,,FullMaintMarginReq-C,0.00,USD
+<<< 73,1,1,DUT077119,,FullMaintMarginReq-P,0.00,USD
+<<< 73,1,1,DUT077119,,FullMaintMarginReq-S,17943.29,USD
+<<< 73,1,1,DUT077119,,GrossPositionValue,71773.14,USD
+<<< 73,1,1,DUT077119,,GrossPositionValue-C,0.00,USD
+<<< 73,1,1,DUT077119,,GrossPositionValue-S,71773.14,USD
+<<< 73,1,1,DUT077119,,Guarantee,0.00,USD
+<<< 73,1,1,DUT077119,,Guarantee-C,0.00,USD
+<<< 73,1,1,DUT077119,,Guarantee-P,0.00,USD
+<<< 73,1,1,DUT077119,,Guarantee-S,0.00,USD
+<<< 73,1,1,DUT077119,,IncentiveCoupons,0.00,USD
+<<< 73,1,1,DUT077119,,IncentiveCoupons-C,0.00,USD
+<<< 73,1,1,DUT077119,,IncentiveCoupons-P,0.00,USD
+<<< 73,1,1,DUT077119,,IncentiveCoupons-S,0.00,USD
+<<< 73,1,1,DUT077119,,IndianStockHaircut,0.00,USD
+<<< 73,1,1,DUT077119,,IndianStockHaircut-C,0.00,USD
+<<< 73,1,1,DUT077119,,IndianStockHaircut-P,0.00,USD
+<<< 73,1,1,DUT077119,,IndianStockHaircut-S,0.00,USD
+<<< 73,1,1,DUT077119,,InitMarginReq,17943.29,USD
+<<< 73,1,1,DUT077119,,InitMarginReq-C,0.00,USD
+<<< 73,1,1,DUT077119,,InitMarginReq-P,0.00,USD
+<<< 73,1,1,DUT077119,,InitMarginReq-S,17943.29,USD
+<<< 73,1,1,DUT077119,,Leverage-C,0.00,
+<<< 73,1,1,DUT077119,,Leverage-S,0.07,
+<<< 73,1,1,DUT077119,,LookAheadAvailableFunds,982315.91,USD
+<<< 73,1,1,DUT077119,,LookAheadAvailableFunds-C,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadAvailableFunds-P,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadAvailableFunds-S,982315.91,USD
+<<< 73,1,1,DUT077119,,LookAheadExcessLiquidity,982315.91,USD
+<<< 73,1,1,DUT077119,,LookAheadExcessLiquidity-C,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadExcessLiquidity-P,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadExcessLiquidity-S,982315.91,USD
+<<< 73,1,1,DUT077119,,LookAheadInitMarginReq,17943.29,USD
+<<< 73,1,1,DUT077119,,LookAheadInitMarginReq-C,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadInitMarginReq-P,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadInitMarginReq-S,17943.29,USD
+<<< 73,1,1,DUT077119,,LookAheadMaintMarginReq,17943.29,USD
+<<< 73,1,1,DUT077119,,LookAheadMaintMarginReq-C,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadMaintMarginReq-P,0.00,USD
+<<< 73,1,1,DUT077119,,LookAheadMaintMarginReq-S,17943.29,USD
+<<< 73,1,1,DUT077119,,LookAheadNextChange,1788960600,
+<<< 73,1,1,DUT077119,,MaintMarginReq,17943.29,USD
+<<< 73,1,1,DUT077119,,MaintMarginReq-C,0.00,USD
+<<< 73,1,1,DUT077119,,MaintMarginReq-P,0.00,USD
+<<< 73,1,1,DUT077119,,MaintMarginReq-S,17943.29,USD
+<<< 73,1,1,DUT077119,,NLVAndMarginInReview,false,
+<<< 73,1,1,DUT077119,,NetLiquidation,1000750.90,USD
+<<< 73,1,1,DUT077119,,NetLiquidation-C,0.00,USD
+<<< 73,1,1,DUT077119,,NetLiquidation-P,0.00,USD
+<<< 73,1,1,DUT077119,,NetLiquidation-S,1000750.90,USD
+<<< 73,1,1,DUT077119,,NetLiquidationUncertainty,0.00,USD
+<<< 73,1,1,DUT077119,,PASharesValue,0.00,USD
+<<< 73,1,1,DUT077119,,PASharesValue-C,0.00,USD
+<<< 73,1,1,DUT077119,,PASharesValue-P,0.00,USD
+<<< 73,1,1,DUT077119,,PASharesValue-S,0.00,USD
+<<< 73,1,1,DUT077119,,PhysicalCertificateValue,0.00,USD
+<<< 73,1,1,DUT077119,,PhysicalCertificateValue-C,0.00,USD
+<<< 73,1,1,DUT077119,,PhysicalCertificateValue-P,0.00,USD
+<<< 73,1,1,DUT077119,,PhysicalCertificateValue-S,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationExcess,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationExcess-C,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationExcess-P,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationExcess-S,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationMargin,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationMargin-C,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationMargin-P,0.00,USD
+<<< 73,1,1,DUT077119,,PostExpirationMargin-S,0.00,USD
+<<< 73,1,1,DUT077119,,RegTEquity,1000750.90,USD
+<<< 73,1,1,DUT077119,,RegTEquity-S,1000750.90,USD
+<<< 73,1,1,DUT077119,,RegTMargin,35886.57,USD
+<<< 73,1,1,DUT077119,,RegTMargin-S,35886.57,USD
+<<< 73,1,1,DUT077119,,SMA,964864.33,USD
+<<< 73,1,1,DUT077119,,SMA-S,964864.33,USD
+<<< 73,1,1,DUT077119,,SegmentTitle-C,US Commodities,
+<<< 73,1,1,DUT077119,,SegmentTitle-P,Crypto at Paxos,
+<<< 73,1,1,DUT077119,,SegmentTitle-S,US Securities,
+<<< 73,1,1,DUT077119,,SettledCashByDate,20260909:928486.05,BASE
+<<< 73,1,1,DUT077119,,SettledCashByDate,20260909:928486.05,USD
+<<< 73,1,1,DUT077119,,SettledCashByDate-C,20260909:0,BASE
+<<< 73,1,1,DUT077119,,SettledCashByDate-C,20260909:0,USD
+<<< 73,1,1,DUT077119,,SettledCashByDate-P,20260909:0,BASE
+<<< 73,1,1,DUT077119,,SettledCashByDate-P,20260909:0,USD
+<<< 73,1,1,DUT077119,,SettledCashByDate-S,20260909:928486.05,BASE
+<<< 73,1,1,DUT077119,,SettledCashByDate-S,20260909:928486.05,USD
+<<< 73,1,1,DUT077119,,TotalCashValue,928486.05,USD
+<<< 73,1,1,DUT077119,,TotalCashValue-C,0.00,USD
+<<< 73,1,1,DUT077119,,TotalCashValue-P,0.00,USD
+<<< 73,1,1,DUT077119,,TotalCashValue-S,928486.05,USD
+<<< 73,1,1,DUT077119,,TotalDebitCardPendingCharges,0.00,USD
+<<< 73,1,1,DUT077119,,TotalDebitCardPendingCharges-C,0.00,USD
+<<< 73,1,1,DUT077119,,TotalDebitCardPendingCharges-P,0.00,USD
+<<< 73,1,1,DUT077119,,TotalDebitCardPendingCharges-S,0.00,USD
+<<< 73,1,1,DUT077119,,TradingType-S,STKNOPT,
+<<< 73,1,1,DUT077119,,WhatIfPMEnabled,true,
+<<< 73,1,1,DUT077119,,$LEDGER-Currency,USD,USD
+<<< 73,1,1,DUT077119,,$LEDGER-CashBalance,928486.05,USD
+<<< 73,1,1,DUT077119,,$LEDGER-TotalCashBalance,928486.05,USD
+<<< 73,1,1,DUT077119,,$LEDGER-AccruedCash,491.71,USD
+<<< 73,1,1,DUT077119,,$LEDGER-StockMarketValue,71773.14,USD
+<<< 73,1,1,DUT077119,,$LEDGER-OptionMarketValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-FutureOptionValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-FuturesPNL,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-NetLiquidationByCurrency,1000750.9017,USD
+<<< 73,1,1,DUT077119,,$LEDGER-UnrealizedPnL,259.19,USD
+<<< 73,1,1,DUT077119,,$LEDGER-RealizedPnL,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-ExchangeRate,1.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-FundValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-NetDividend,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-MutualFundValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-MoneyMarketFundValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-CorporateBondValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-TBondValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-TBillValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-WarrantValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-FxCashBalance,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-AccountOrGroup,DUT077119,USD
+<<< 73,1,1,DUT077119,,$LEDGER-RealCurrency,USD,USD
+<<< 73,1,1,DUT077119,,$LEDGER-IssuerOptionValue,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-InsuredDeposit,,USD
+<<< 73,1,1,DUT077119,,$LEDGER-Cryptocurrency,0.00,USD
+<<< 73,1,1,DUT077119,,$LEDGER-Currency,BASE,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-CashBalance,928486.05,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-TotalCashBalance,928486.05,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-AccruedCash,491.71,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-StockMarketValue,71773.14,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-OptionMarketValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-FutureOptionValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-FuturesPNL,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-NetLiquidationByCurrency,1000750.9017,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-UnrealizedPnL,259.19,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-RealizedPnL,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-ExchangeRate,1.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-FundValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-NetDividend,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-MutualFundValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-MoneyMarketFundValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-CorporateBondValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-TBondValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-TBillValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-WarrantValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-FxCashBalance,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-AccountOrGroup,DUT077119,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-RealCurrency,USD,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-IssuerOptionValue,0.00,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-InsuredDeposit,,BASE
+<<< 73,1,1,DUT077119,,$LEDGER-Cryptocurrency,0.00,BASE
+<<< 74,1,1
+>>> 7,3,2,0,,,,,,
+<<< 55,1,2
+Synchronization complete
+>>> 9,8,3,0,ES,FUT,202609,0.0,,50,CME,,,,,0,,,
+<<< 10,3,ES,FUT,20260918 08:30:00 US/Central,0,,CME,USD,ESU6,ES,ES,649180671,0.25,50,ACTIVETIM,AD,ADJUST,ALERT,ALGO,ALLOC,AVGCOST,BASKET,BENCHPX,COND,CONDORDER,DAY,DEACT,DEACTDIS,DEACTEOD,GAT,GTC,GTD,GTT,HID,ICE,IOC,LIT,LMT,LTH,MIT,MKT,MTL,NGCOMB,NONALGO,OCA,PEGBENCH,SCALE,SCALERST,SNAPMID,SNAPMKT,SNAPREL,STP,STPLMT,TRAIL,TRAILLIT,TRAILLMT,TRAILMIT,WHATIF,CME,QBALGO,1,11004968,E-mini S&P 500,,202609,,,,US/Central,20260908:1700-20260909:1600;20260909:1700-20260910:1600;20260910:1700-20260911:1600;20260912:CLOSED;20260913:1700-20260914:1600;20260914:1700-20260915:1600,20260909:0830-20260909:1600;20260910:0830-20260910:1600;20260911:0830-20260911:1600;20260912:CLOSED;20260913:CLOSED;20260914:0830-20260914:1600;20260914:1700-20260915:1600,,,0,2147483647,ES,IND,67,67,20260918,,1,1,1
+<<< 52,1,3
+{'component': 'mongoFuturesContractData', 'instrument_code': 'SP500', 'contract_date': '20260900'} Added contract SP500 20260900
+{'instrument_code': 'SP500', 'contract_date': '20260900'} Updated expiry of contract SP500/20260900 to 2026-09-18 00:00:00
+>>> 9,8,4,0,ES,FUT,202612,0.0,,50,CME,,,,,0,,,
+<<< 10,4,ES,FUT,20261218 08:30:00 US/Central,0,,CME,USD,ESZ6,ES,ES,515416632,0.25,50,ACTIVETIM,AD,ADJUST,ALERT,ALGO,ALLOC,AVGCOST,BASKET,BENCHPX,COND,CONDORDER,DAY,DEACT,DEACTDIS,DEACTEOD,GAT,GTC,GTD,GTT,HID,ICE,IOC,LIT,LMT,LTH,MIT,MKT,MTL,NGCOMB,NONALGO,OCA,PEGBENCH,SCALE,SCALERST,SNAPMID,SNAPMKT,SNAPREL,STP,STPLMT,TRAIL,TRAILLIT,TRAILLMT,TRAILMIT,WHATIF,CME,QBALGO,1,11004968,E-mini S&P 500,,202612,,,,US/Central,20260908:1700-20260909:1600;20260909:1700-20260910:1600;20260910:1700-20260911:1600;20260912:CLOSED;20260913:1700-20260914:1600;20260914:1700-20260915:1600,20260909:0830-20260909:1600;20260910:0830-20260910:1600;20260911:0830-20260911:1600;20260912:CLOSED;20260913:CLOSED;20260914:0830-20260914:1600;20260914:1700-20260915:1600,,,0,2147483647,ES,IND,67,67,20261218,,1,1,1
+<<< 52,1,4
+{'component': 'mongoFuturesContractData', 'instrument_code': 'SP500', 'contract_date': '20261200'} Added contract SP500 20261200
+{'instrument_code': 'SP500', 'contract_date': '20261200'} Updated expiry of contract SP500/20261200 to 2026-12-18 00:00:00
+>>> 9,8,5,0,ES,FUT,202703,0.0,,50,CME,,,,,0,,,
+<<< 10,5,ES,FUT,20270319 08:30:00 US/Central,0,,CME,USD,ESH7,ES,ES,649180684,0.25,50,ACTIVETIM,AD,ADJUST,ALERT,ALGO,ALLOC,AVGCOST,BASKET,BENCHPX,COND,CONDORDER,DAY,DEACT,DEACTDIS,DEACTEOD,GAT,GTC,GTD,GTT,HID,ICE,IOC,LIT,LMT,LTH,MIT,MKT,MTL,NGCOMB,NONALGO,OCA,PEGBENCH,SCALE,SCALERST,SNAPMID,SNAPMKT,SNAPREL,STP,STPLMT,TRAIL,TRAILLIT,TRAILLMT,TRAILMIT,WHATIF,CME,QBALGO,1,11004968,E-mini S&P 500,,202703,,,,US/Central,20260908:1700-20260909:1600;20260909:1700-20260910:1600;20260910:1700-20260911:1600;20260912:CLOSED;20260913:1700-20260914:1600;20260914:1700-20260915:1600,20260909:0830-20260909:1600;20260910:0830-20260910:1600;20260911:0830-20260911:1600;20260912:CLOSED;20260913:CLOSED;20260914:0830-20260914:1600;20260914:1700-20260915:1600,,,0,2147483647,ES,IND,67,67,20270319,,1,1,1
+<<< 52,1,5
+{'component': 'mongoFuturesContractData', 'instrument_code': 'SP500', 'contract_date': '20270300'} Added contract SP500 20270300
+{'instrument_code': 'SP500', 'contract_date': '20270300'} Updated expiry of contract SP500/20270300 to 2027-03-19 00:00:00
+All key contracts for SP500 are still active
+{'type': 'SP500-maintenance-validation', 'broker': 'IB', 'clientid': 100} Terminating {'ipaddress': '127.0.0.1', 'port': 4002, 'client': 100}
+Disconnecting from 127.0.0.1:4002, 246 B sent in 9 messages, 22.5 kB received in 406 messages, session time 5.39 s.
+Disconnecting
+{'component': 'mongoIbBrokerClientIdData'} Released IB client ID 100

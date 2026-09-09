@@ -1,0 +1,645 @@
+{
+  "metadata_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "storage": "D:\\dev\\pysystemtrade\\data\\parquet",
+  "metadata_before": [],
+  "metadata_after": [
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              9,
+              18
+            ],
+            "contract_date": "202609"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              12,
+              18
+            ],
+            "contract_date": "202612"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2027,
+              3,
+              19
+            ],
+            "contract_date": "202703"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    }
+  ],
+  "roll_parameters": {
+    "hold_rollcycle": "HMUZ",
+    "priced_rollcycle": "HMUZ",
+    "roll_offset_day": -5,
+    "carry_offset": 1,
+    "approx_expiry_offset": 14
+  },
+  "desired_roll_date": "2026-09-13 00:00:00",
+  "roll_state": "No_Roll",
+  "cleaning": {
+    "ignore_future_prices": true,
+    "ignore_prices_with_zero_volumes_daily": false,
+    "ignore_prices_with_zero_volumes_intraday": true,
+    "ignore_zero_prices": true,
+    "ignore_negative_prices": false,
+    "max_price_spike": 8.0
+  },
+  "metadata_client_id": 100,
+  "metadata_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "metadata_client_ids_released": true,
+  "prices_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "hashes_before": {
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet": "33d51fbc79980fc2ecb3ef2f64df74589e28496e800a9887714c4698e85a0f37",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet": "773a4bc0098eb3ae5f251c6f714070f4ace35f1bed9122d98d26793963fd5e7a",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet": "686b119b36e93c437b92e3867e6239f8a94e87f4a04af640bd14f34afe1e55f3",
+    "data\\parquet\\futures_contract_prices\\SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet": "773a4bc0098eb3ae5f251c6f714070f4ace35f1bed9122d98d26793963fd5e7a",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet": "f647e8b8e658d8bed9faf7f1b8985fc7964486b72a529d4c8c21b74003095ca9",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet": "e4bd6cda1b0ab2878bc60bbf5f70d5d879ccf72fbce9f407da5feaee3dfe680e",
+    "data\\parquet\\spotfx_prices\\AUDUSD.parquet": "2f8c8de6bc0011f6ef284250009024e9b8028796a33ce9b82134078511015ea8",
+    "data\\parquet\\spotfx_prices\\CADUSD.parquet": "f83b62fa4173b4945764483021d8b6fa3ad861df9b760e82e0c2f7375d295bbc",
+    "data\\parquet\\spotfx_prices\\CHFUSD.parquet": "2f0e94dfe6b5085fbfe0540acba3efefc92612401f3c7a43d72aaf6b3f315432",
+    "data\\parquet\\spotfx_prices\\CNHUSD.parquet": "8c18c173fafc28394bc0961f105145184d783848bf4212700754f2d1dddde2ea",
+    "data\\parquet\\spotfx_prices\\EURUSD.parquet": "3ef9d456b991524ba80d151a046b5b93d19d9ef3d2cf3e048e0ae35e63266693",
+    "data\\parquet\\spotfx_prices\\GBPUSD.parquet": "51480254608602a027dbb9cbdc53c4fead43d92fb248f9081d44a0a3e582f5f4",
+    "data\\parquet\\spotfx_prices\\HKDUSD.parquet": "484f9efa0838ed0a72c245a4244b5af0b4b0193f83f480e94c78264b8f58ef05",
+    "data\\parquet\\spotfx_prices\\JPYUSD.parquet": "11e504ab8772179e00d5d759fc90afd4210a7957f023731de1495a0aa7191b99",
+    "data\\parquet\\spotfx_prices\\KRWUSD.parquet": "1545d53e78dab07f20d73ae78f7d11b08006ed205109a13ffe2aa9e32292b8a5",
+    "data\\parquet\\spotfx_prices\\MXPUSD.parquet": "16772b71c9353951457bec01079a6469f8812bf5b3589c2bc1767bd0352b7d81",
+    "data\\parquet\\spotfx_prices\\SEKUSD.parquet": "9e1e4d97265c67be2ee806098f76fb04fee9957f57b9d784d6fea5723ecbff5d",
+    "data\\parquet\\spotfx_prices\\SGDUSD.parquet": "59893736e9d8165097930ca33e508f67732261ad2c202101fc11cde9d940f94c",
+    "data\\bootstrap\\sp500_first_roll\\20260600_raw.parquet": "9db780150a19d2433ec66bdafafdb9173cc1e4fa269427c4af3798d1a3682fa8",
+    "data\\bootstrap\\sp500_first_roll\\20260900_raw.parquet": "674ddc9861193c57f57f65f0043b1c23d889ce26192ec046deffff630096d899",
+    "data\\bootstrap\\sp500_first_roll\\bounded_calendar.csv": "1c2d699326f4b1bc80bc31540b5f86bd067db884b80580d37cfb5c93924473a7",
+    "data\\bootstrap\\sp500_first_roll\\identities.json": "e72301d167a19bf96825a3f0d6bdc517ac6319a366b4a0ec1d1442d03a6aa294",
+    "data\\bootstrap\\sp500_first_roll\\validation.json": "b1693b0a01a7839e3470d4736f752ad3a1ca96173afdf62ca6c8b75ec4cb3d04"
+  },
+  "contracts": {
+    "20260900": {
+      "daily": {
+        "rows": 131,
+        "first": "2026-03-04 23:00:00",
+        "latest": "2026-09-08 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 0,
+        "previous_latest": "2026-09-04 23:00:00",
+        "rows_added": 1,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 131,
+        "first": "2026-03-04 23:00:00",
+        "latest": "2026-09-08 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 0,
+        "previous_latest": "2026-09-04 23:00:00",
+        "rows_added": 1,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    },
+    "20261200": {
+      "daily": {
+        "rows": 252,
+        "first": "2025-09-08 23:00:00",
+        "latest": "2026-09-08 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 125,
+        "previous_latest": "2026-09-04 23:00:00",
+        "rows_added": 1,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 252,
+        "first": "2025-09-08 23:00:00",
+        "latest": "2026-09-08 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 125,
+        "previous_latest": "2026-09-04 23:00:00",
+        "rows_added": 1,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    },
+    "20270300": {
+      "daily": {
+        "rows": 250,
+        "first": "2025-09-09 23:00:00",
+        "latest": "2026-09-08 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 208,
+        "previous_latest": "nan",
+        "rows_added": 250,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 250,
+        "first": "2025-09-09 23:00:00",
+        "latest": "2026-09-08 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 208,
+        "previous_latest": "nan",
+        "rows_added": 250,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    }
+  },
+  "requests": [
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 649180671,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20260918",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESU6",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    },
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 649180671,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20260918",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESU6",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    },
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 649180671,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20260918",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESU6",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    },
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 515416632,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20261218",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESZ6",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    },
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 649180684,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20270319",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESH7",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    }
+  ],
+  "prices_error": "ValueError('Can only compare identically-labeled (both index and columns) DataFrame objects')",
+  "prices_client_id": 100,
+  "prices_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "prices_client_ids_released": true,
+  "prices_resume_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "prices_resume_error": "AssertionError()",
+  "prices_resume_client_id": 100,
+  "prices_resume_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "prices_resume_client_ids_released": true,
+  "multiple": {
+    "rows": 99,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-08 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-04 23:00:00",
+    "rows_added": 1,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "derived_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "adjusted": {
+    "rows": 99,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-08 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-04 23:00:00",
+    "rows_added": 1,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "derived_error": "KeyError('CARRY')",
+  "derived_client_id": 100,
+  "derived_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "derived_client_ids_released": true,
+  "latest_multiple": {
+    "CARRY": 7747.25,
+    "CARRY_CONTRACT": "20261200",
+    "PRICE": 7680.5,
+    "PRICE_CONTRACT": "20260900",
+    "FORWARD": 7747.25,
+    "FORWARD_CONTRACT": "20261200"
+  },
+  "latest_adjusted": 7680.5,
+  "hashes_after": {
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet": "de465d528bfd86a98b883b8eba27f42b22cf9bbb5d4ceeacfe1f17685ad7652a",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet": "4a580c64dd85b9918bfd5aa724c609dea866d08839e7defcbf9c3af2219fbcee",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet": "99aa0eef6c5cbe3b5e0d53fbe08d814bdfa2fdc86565b4e54fb27aabb32ba1aa",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20270300.parquet": "d63988c7d810e81b2a4680329dabc91be8cf5627da3cb435bff66393a7b468b5",
+    "data\\parquet\\futures_contract_prices\\SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet": "e9aa9a6fe6f28b439a44d5a731a0fc9a474155c1b37aa42011e3144b09477682",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet": "cf1aadf823d4904a0a82d642bfb4f7796afd21fbd9aaac393b4179419cb34cfa",
+    "data\\parquet\\futures_contract_prices\\SP500#20270300.parquet": "dee7a4a80ee6ae2bc3911a91105475ead96f0816b60e4033f3bcb1fa3b64d4e8",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet": "7963179490f93f63bcf5802f8dec2ad2213c1c84ea096fee464ce7f5d21a2b2e",
+    "data\\parquet\\spotfx_prices\\AUDUSD.parquet": "2f8c8de6bc0011f6ef284250009024e9b8028796a33ce9b82134078511015ea8",
+    "data\\parquet\\spotfx_prices\\CADUSD.parquet": "f83b62fa4173b4945764483021d8b6fa3ad861df9b760e82e0c2f7375d295bbc",
+    "data\\parquet\\spotfx_prices\\CHFUSD.parquet": "2f0e94dfe6b5085fbfe0540acba3efefc92612401f3c7a43d72aaf6b3f315432",
+    "data\\parquet\\spotfx_prices\\CNHUSD.parquet": "8c18c173fafc28394bc0961f105145184d783848bf4212700754f2d1dddde2ea",
+    "data\\parquet\\spotfx_prices\\EURUSD.parquet": "3ef9d456b991524ba80d151a046b5b93d19d9ef3d2cf3e048e0ae35e63266693",
+    "data\\parquet\\spotfx_prices\\GBPUSD.parquet": "51480254608602a027dbb9cbdc53c4fead43d92fb248f9081d44a0a3e582f5f4",
+    "data\\parquet\\spotfx_prices\\HKDUSD.parquet": "484f9efa0838ed0a72c245a4244b5af0b4b0193f83f480e94c78264b8f58ef05",
+    "data\\parquet\\spotfx_prices\\JPYUSD.parquet": "11e504ab8772179e00d5d759fc90afd4210a7957f023731de1495a0aa7191b99",
+    "data\\parquet\\spotfx_prices\\KRWUSD.parquet": "1545d53e78dab07f20d73ae78f7d11b08006ed205109a13ffe2aa9e32292b8a5",
+    "data\\parquet\\spotfx_prices\\MXPUSD.parquet": "16772b71c9353951457bec01079a6469f8812bf5b3589c2bc1767bd0352b7d81",
+    "data\\parquet\\spotfx_prices\\SEKUSD.parquet": "9e1e4d97265c67be2ee806098f76fb04fee9957f57b9d784d6fea5723ecbff5d",
+    "data\\parquet\\spotfx_prices\\SGDUSD.parquet": "59893736e9d8165097930ca33e508f67732261ad2c202101fc11cde9d940f94c",
+    "data\\bootstrap\\sp500_first_roll\\20260600_raw.parquet": "9db780150a19d2433ec66bdafafdb9173cc1e4fa269427c4af3798d1a3682fa8",
+    "data\\bootstrap\\sp500_first_roll\\20260900_raw.parquet": "674ddc9861193c57f57f65f0043b1c23d889ce26192ec046deffff630096d899",
+    "data\\bootstrap\\sp500_first_roll\\bounded_calendar.csv": "1c2d699326f4b1bc80bc31540b5f86bd067db884b80580d37cfb5c93924473a7",
+    "data\\bootstrap\\sp500_first_roll\\identities.json": "e72301d167a19bf96825a3f0d6bdc517ac6319a366b4a0ec1d1442d03a6aa294",
+    "data\\bootstrap\\sp500_first_roll\\validation.json": "b1693b0a01a7839e3470d4736f752ad3a1ca96173afdf62ca6c8b75ec4cb3d04"
+  },
+  "changed_files": [
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20270300.parquet",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet",
+    "data\\parquet\\futures_contract_prices\\SP500#20270300.parquet",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet"
+  ],
+  "price_update_passed": true,
+  "futures_multiple_prices_persisted_comparison": {
+    "rows": 99,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-08 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-04 23:00:00",
+    "rows_added": 1,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "futures_adjusted_prices_persisted_comparison": {
+    "rows": 99,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-08 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-04 23:00:00",
+    "rows_added": 1,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "persisted_all_leg_mappings_and_panama_passed": true,
+  "registered_transition_timestamps": [
+    "2026-06-11 23:00:00"
+  ],
+  "overlaps": {
+    "20260900_20261200": {
+      "rows": 130,
+      "first": "2026-03-04 23:00:00",
+      "last": "2026-09-08 23:00:00",
+      "positive_volume_rows": 119,
+      "last_positive_volume": "2026-09-08 23:00:00",
+      "latest": {
+        "OPEN_a": 7711.5,
+        "HIGH_a": 7717.75,
+        "LOW_a": 7672.25,
+        "FINAL_a": 7680.5,
+        "VOLUME_a": 1088909.0,
+        "OPEN_b": 7779.0,
+        "HIGH_b": 7784.5,
+        "LOW_b": 7740.0,
+        "FINAL_b": 7747.25,
+        "VOLUME_b": 8768.0
+      }
+    },
+    "20261200_20270300": {
+      "rows": 250,
+      "first": "2025-09-09 23:00:00",
+      "last": "2026-09-08 23:00:00",
+      "positive_volume_rows": 40,
+      "last_positive_volume": "2026-09-08 23:00:00",
+      "latest": {
+        "OPEN_a": 7779.0,
+        "HIGH_a": 7784.5,
+        "LOW_a": 7740.0,
+        "FINAL_a": 7747.25,
+        "VOLUME_a": 8768.0,
+        "OPEN_b": 7845.0,
+        "HIGH_b": 7846.0,
+        "LOW_b": 7825.5,
+        "FINAL_b": 7825.5,
+        "VOLUME_b": 4.0
+      }
+    }
+  },
+  "readiness": {
+    "current_contracts": {
+      "CARRY": "20261200",
+      "FORWARD": "20261200",
+      "PRICE": "20260900"
+    },
+    "roll_state": "No_Roll",
+    "next_price": "20261200",
+    "next_forward": "20270300",
+    "next_carry": "20270300",
+    "desired_roll_date": "2026-09-13 00:00:00",
+    "measured_at": "2026-09-09 21:02:12.689119",
+    "smoothed_relative_forward_volume": 0.005172436252579536,
+    "smoothed_absolute_forward_volume": 6091.262230919765,
+    "configured_auto_roll_parameters": {
+      "auto_roll_if_relative_volume_higher_than": 1.0,
+      "min_relative_volume": 0.01,
+      "min_absolute_volume": 100,
+      "near_expiry_days": 10,
+      "default_roll_state_if_undecided": "Ask",
+      "auto_roll_expired": true
+    },
+    "forward_liquid": false
+  },
+  "audit_driver_errors_resolved": true
+}

@@ -1,0 +1,41 @@
+{
+  "mongo": {
+    "IBClientTracker": [
+      "{\"_id\": {\"$oid\": \"6a9c170fe8a732805d641888\"}, \"client_id\": 106}",
+      "{\"_id\": {\"$oid\": \"6a9c17e5acf9014b8ff458f7\"}, \"client_id\": 107}",
+      "{\"_id\": {\"$oid\": \"6a9c198cfea613da4940ea2a\"}, \"client_id\": 108}"
+    ],
+    "futures_contracts": [
+      "{\"_id\": {\"$oid\": \"6aa157a06dce9e608b770b14\"}, \"contract_date_dict\": {\"contract_list\": [{\"contract_date\": \"202612\", \"expiry_date\": [2026, 12, 18]}]}, \"contract_key\": \"SP500/20261200\", \"contract_params\": {\"sampling\": true}, \"instrument_dict\": {\"instrument_code\": \"SP500\"}}",
+      "{\"_id\": {\"$oid\": \"6aa157a06dce9e608b770b15\"}, \"contract_date_dict\": {\"contract_list\": [{\"contract_date\": \"202703\", \"expiry_date\": [2027, 3, 19]}]}, \"contract_key\": \"SP500/20270300\", \"contract_params\": {\"sampling\": true}, \"instrument_dict\": {\"instrument_code\": \"SP500\"}}",
+      "{\"_id\": {\"$oid\": \"6aa157a06dce9e608b770b16\"}, \"contract_date_dict\": {\"contract_list\": [{\"contract_date\": \"202609\", \"expiry_date\": [2026, 9, 18]}]}, \"contract_key\": \"SP500/20260900\", \"contract_params\": {\"sampling\": true}, \"instrument_dict\": {\"instrument_code\": \"SP500\"}}"
+    ],
+    "futures_roll_status": [
+      "{\"_id\": {\"$oid\": \"6aa157a56dce9e608b770b18\"}, \"instrument_code\": \"SP500\", \"roll_state\": \"No_Roll\"}"
+    ]
+  },
+  "parquet": {
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet": "de465d528bfd86a98b883b8eba27f42b22cf9bbb5d4ceeacfe1f17685ad7652a",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet": "4a580c64dd85b9918bfd5aa724c609dea866d08839e7defcbf9c3af2219fbcee",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet": "99aa0eef6c5cbe3b5e0d53fbe08d814bdfa2fdc86565b4e54fb27aabb32ba1aa",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20270300.parquet": "d63988c7d810e81b2a4680329dabc91be8cf5627da3cb435bff66393a7b468b5",
+    "data\\parquet\\futures_contract_prices\\SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet": "e9aa9a6fe6f28b439a44d5a731a0fc9a474155c1b37aa42011e3144b09477682",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet": "cf1aadf823d4904a0a82d642bfb4f7796afd21fbd9aaac393b4179419cb34cfa",
+    "data\\parquet\\futures_contract_prices\\SP500#20270300.parquet": "dee7a4a80ee6ae2bc3911a91105475ead96f0816b60e4033f3bcb1fa3b64d4e8",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet": "7963179490f93f63bcf5802f8dec2ad2213c1c84ea096fee464ce7f5d21a2b2e",
+    "data\\parquet\\spotfx_prices\\AUDUSD.parquet": "2f8c8de6bc0011f6ef284250009024e9b8028796a33ce9b82134078511015ea8",
+    "data\\parquet\\spotfx_prices\\CADUSD.parquet": "f83b62fa4173b4945764483021d8b6fa3ad861df9b760e82e0c2f7375d295bbc",
+    "data\\parquet\\spotfx_prices\\CHFUSD.parquet": "2f0e94dfe6b5085fbfe0540acba3efefc92612401f3c7a43d72aaf6b3f315432",
+    "data\\parquet\\spotfx_prices\\CNHUSD.parquet": "8c18c173fafc28394bc0961f105145184d783848bf4212700754f2d1dddde2ea",
+    "data\\parquet\\spotfx_prices\\EURUSD.parquet": "3ef9d456b991524ba80d151a046b5b93d19d9ef3d2cf3e048e0ae35e63266693",
+    "data\\parquet\\spotfx_prices\\GBPUSD.parquet": "51480254608602a027dbb9cbdc53c4fead43d92fb248f9081d44a0a3e582f5f4",
+    "data\\parquet\\spotfx_prices\\HKDUSD.parquet": "484f9efa0838ed0a72c245a4244b5af0b4b0193f83f480e94c78264b8f58ef05",
+    "data\\parquet\\spotfx_prices\\JPYUSD.parquet": "11e504ab8772179e00d5d759fc90afd4210a7957f023731de1495a0aa7191b99",
+    "data\\parquet\\spotfx_prices\\KRWUSD.parquet": "1545d53e78dab07f20d73ae78f7d11b08006ed205109a13ffe2aa9e32292b8a5",
+    "data\\parquet\\spotfx_prices\\MXPUSD.parquet": "16772b71c9353951457bec01079a6469f8812bf5b3589c2bc1767bd0352b7d81",
+    "data\\parquet\\spotfx_prices\\SEKUSD.parquet": "9e1e4d97265c67be2ee806098f76fb04fee9957f57b9d784d6fea5723ecbff5d",
+    "data\\parquet\\spotfx_prices\\SGDUSD.parquet": "59893736e9d8165097930ca33e508f67732261ad2c202101fc11cde9d940f94c"
+  }
+}

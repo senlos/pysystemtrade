@@ -1,0 +1,48 @@
+{
+  "strategy": "sp500_target_test",
+  "instrument": "SP500",
+  "capital": 10000.0,
+  "currency": "USD",
+  "percentage_vol_target": 25,
+  "data_timestamp": "2026-09-08 23:00:00",
+  "adjusted_rows": 99,
+  "adjusted_price": 7680.5,
+  "multiple_latest": {
+    "PRICE": 7680.5,
+    "CARRY": 7747.25,
+    "PRICE_CONTRACT": "20260900",
+    "CARRY_CONTRACT": "20261200"
+  },
+  "raw_forecasts": {
+    "ewmac8": 0.5050429461183524,
+    "ewmac32": 1.6391540626117451
+  },
+  "capped_forecasts": {
+    "ewmac8": 2.676727614427268,
+    "ewmac32": 4.3437582659211245
+  },
+  "combined_forecast": 3.861267234191616,
+  "daily_price_volatility": 53.59699306455863,
+  "daily_cash_vol_target": 156.25,
+  "average_position": 0.058305509718350725,
+  "subsystem_position": 0.02251331542483085,
+  "instrument_weight": 1.0,
+  "instrument_div_multiplier": 1.0,
+  "target": 0.02251331542483085,
+  "persisted": {
+    "date": "2026-09-09 21:17:18.732799",
+    "lower_position": 0.016682764452995776,
+    "upper_position": 0.028343866396665925,
+    "reference_price": 7680.5,
+    "reference_contract": "20260900"
+  },
+  "snapshot_timestamp": "20260909_211718",
+  "changed_parquet": [
+    "data/parquet/capital/sp500_target_test.parquet",
+    "data/parquet/optimal_positions/sp500_target_test SP500.parquet"
+  ],
+  "mongo_unchanged": true,
+  "broker_connection_attempts": 0,
+  "broker_verification": "No broker access; no broker mutation possible through this run. External account state not queried.",
+  "completed_at": "2026-09-09 21:17:49.259496"
+}

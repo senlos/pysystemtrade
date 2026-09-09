@@ -1,7 +1,7 @@
 """
-This is a futures system
+This is a futures system  ## 期货交易系统
 
-A system consists of a system, plus a config
+A system consists of a system, plus a config  ## 系统 = 系统 + 配置文件
 
 """
 from syscore.constants import arg_not_supplied
@@ -19,11 +19,11 @@ from systems.portfolio import Portfolios
 from systems.accounts.accounts_stage import Account
 
 
-def futures_system(
+def futures_system( ## 期货交易系统在此定义
     data=arg_not_supplied,
     config=arg_not_supplied,
     trading_rules=arg_not_supplied,
-):
+):  ## 系统由三部分构成，数据，配置，交易规则，且三个参数默认为不提供
     """
 
     :param data: data object (defaults to reading from csv files)

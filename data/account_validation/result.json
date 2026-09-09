@@ -1,0 +1,257 @@
+{
+  "paper_evidence": "User manually verified current TWS PAPER / Simulated Trading, DUT077119",
+  "mongo_before": {
+    "IBClientTracker": [
+      {
+        "client_id": 106
+      },
+      {
+        "client_id": 107
+      },
+      {
+        "client_id": 108
+      }
+    ],
+    "futures_contracts": [
+      {
+        "contract_date_dict": {
+          "contract_list": [
+            {
+              "expiry_date": [
+                2026,
+                12,
+                18
+              ],
+              "contract_date": "202612"
+            }
+          ]
+        },
+        "instrument_dict": {
+          "instrument_code": "SP500"
+        },
+        "contract_params": {
+          "sampling": true
+        },
+        "contract_key": "SP500/20261200"
+      },
+      {
+        "contract_date_dict": {
+          "contract_list": [
+            {
+              "expiry_date": [
+                2027,
+                3,
+                19
+              ],
+              "contract_date": "202703"
+            }
+          ]
+        },
+        "instrument_dict": {
+          "instrument_code": "SP500"
+        },
+        "contract_params": {
+          "sampling": true
+        },
+        "contract_key": "SP500/20270300"
+      },
+      {
+        "contract_date_dict": {
+          "contract_list": [
+            {
+              "expiry_date": [
+                2026,
+                9,
+                18
+              ],
+              "contract_date": "202609"
+            }
+          ]
+        },
+        "instrument_dict": {
+          "instrument_code": "SP500"
+        },
+        "contract_params": {
+          "sampling": true
+        },
+        "contract_key": "SP500/20260900"
+      }
+    ],
+    "futures_roll_status": [
+      {
+        "roll_state": "No_Roll",
+        "instrument_code": "SP500"
+      }
+    ]
+  },
+  "configured_account": "DUT077119",
+  "broker_account": "DUT077119",
+  "client_id": 100,
+  "managed_accounts": [
+    "DUT077119"
+  ],
+  "capital_by_currency": [
+    [
+      "USD",
+      1000833.06
+    ]
+  ],
+  "capital_base": 1000833.06,
+  "excess_liquidity_base": 982377.53,
+  "fx_balances": {},
+  "futures_positions": "Empty DataFrame\nColumns: [instrument_code, contract_date, expiry_date, position]\nIndex: []",
+  "positions_by_asset": {
+    "STK": [
+      {
+        "account": "DUT077119",
+        "symbol": "AAPL",
+        "multiplier": 1.0,
+        "expiry": "",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "position": 1.0,
+        "ib_contract": "Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS')"
+      },
+      {
+        "account": "DUT077119",
+        "symbol": "QQQ",
+        "multiplier": 1.0,
+        "expiry": "",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "position": 100.0,
+        "ib_contract": "Stock(conId=320227571, symbol='QQQ', exchange='NASDAQ', currency='USD', localSymbol='QQQ', tradingClass='NMS')"
+      }
+    ]
+  },
+  "broker_sp500_actual": 0,
+  "open_orders": [],
+  "open_order_count": 0,
+  "contracts": {
+    "20260900": {
+      "conId": 649180671,
+      "symbol": "ES",
+      "localSymbol": "ESU6",
+      "exchange": "CME",
+      "currency": "USD",
+      "multiplier": "50",
+      "expiry": "20260918",
+      "minTick": 0.25
+    },
+    "20261200": {
+      "conId": 515416632,
+      "symbol": "ES",
+      "localSymbol": "ESZ6",
+      "exchange": "CME",
+      "currency": "USD",
+      "multiplier": "50",
+      "expiry": "20261218",
+      "minTick": 0.25
+    }
+  },
+  "local_sp500_actual": 0,
+  "local_contract_positions": "Empty DataFrame\nColumns: [instrument_code, contract_date, expiry_date, position]\nIndex: []",
+  "local_strategy_positions": "Empty DataFrame\nColumns: [strategy_name, instrument_code, position]\nIndex: []",
+  "optimal_fields": {
+    "date": "2026-09-09 21:17:18.732799",
+    "lower_position": 0.016682764452995776,
+    "upper_position": 0.028343866396665925,
+    "reference_price": 7680.5,
+    "reference_contract": "20260900"
+  },
+  "optimal_buffer_midpoint": 0.02251331542483085,
+  "controls": {
+    "position_limit": "No limit",
+    "trade_limits": "[]",
+    "locked": false,
+    "override": "Override 1.0",
+    "roll": "RollState.No_Roll"
+  },
+  "disconnected": true,
+  "mongo_after": {
+    "IBClientTracker": [
+      {
+        "client_id": 106
+      },
+      {
+        "client_id": 107
+      },
+      {
+        "client_id": 108
+      }
+    ],
+    "futures_contracts": [
+      {
+        "contract_date_dict": {
+          "contract_list": [
+            {
+              "expiry_date": [
+                2026,
+                12,
+                18
+              ],
+              "contract_date": "202612"
+            }
+          ]
+        },
+        "instrument_dict": {
+          "instrument_code": "SP500"
+        },
+        "contract_params": {
+          "sampling": true
+        },
+        "contract_key": "SP500/20261200"
+      },
+      {
+        "contract_date_dict": {
+          "contract_list": [
+            {
+              "expiry_date": [
+                2027,
+                3,
+                19
+              ],
+              "contract_date": "202703"
+            }
+          ]
+        },
+        "instrument_dict": {
+          "instrument_code": "SP500"
+        },
+        "contract_params": {
+          "sampling": true
+        },
+        "contract_key": "SP500/20270300"
+      },
+      {
+        "contract_date_dict": {
+          "contract_list": [
+            {
+              "expiry_date": [
+                2026,
+                9,
+                18
+              ],
+              "contract_date": "202609"
+            }
+          ]
+        },
+        "instrument_dict": {
+          "instrument_code": "SP500"
+        },
+        "contract_params": {
+          "sampling": true
+        },
+        "contract_key": "SP500/20260900"
+      }
+    ],
+    "futures_roll_status": [
+      {
+        "roll_state": "No_Roll",
+        "instrument_code": "SP500"
+      }
+    ]
+  },
+  "mongo_unchanged": true,
+  "status": "PASS"
+}
