@@ -1,0 +1,9 @@
+{
+  "independent_stored_cap": 1,
+  "native_effective_cap": 1,
+  "other_mongo_state_unchanged": true,
+  "post_preflight_mongo_unchanged": true,
+  "blocker": "IB error 354: live ES quotes not subscribed",
+  "parent_orders_created": 0,
+  "submission_attempts": 0
+}

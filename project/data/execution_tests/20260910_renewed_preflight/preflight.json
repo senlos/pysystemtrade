@@ -1,0 +1,57 @@
+{
+  "started": "2026-09-10T22:09:57.758509+08:00",
+  "orders_created": 0,
+  "submission_attempts": 0,
+  "paper_identity": "Prior handoff confirmation only; current UI not independently verified",
+  "configured_account": "DUT077119",
+  "GMT_offset_hours": 8,
+  "local_readonly_records": {
+    "futures_roll_status": [
+      {
+        "roll_state": "No_Roll",
+        "instrument_code": "SP500"
+      }
+    ],
+    "limit_status": [
+      {
+        "trade_limit": 1.0,
+        "trades_since_last_reset": 0.0,
+        "last_reset_time": "2026-09-10 20:19:00.186000",
+        "instrument_strategy_key": " SP500",
+        "period_days": 1
+      }
+    ],
+    "position_limit_status": [
+      {
+        "position_limit": 1.0,
+        "marker": "instrument",
+        "instrument_code": "SP500"
+      },
+      {
+        "position_limit": 1.0,
+        "marker": "strategy_instrument",
+        "strategy_name": "sp500_target_test",
+        "instrument_code": "SP500"
+      }
+    ]
+  },
+  "managed_accounts": [
+    "DUT077119"
+  ],
+  "contract": {
+    "conId": 649180671,
+    "localSymbol": "ESU6",
+    "exchange": "CME",
+    "currency": "USD",
+    "multiplier": "50",
+    "expiry": "20260918",
+    "minTick": 0.25
+  },
+  "native_tradable_now": false,
+  "effective_hours": "[tradingHours(opening_time=datetime.datetime(2026, 9, 10, 23, 0), closing_time=datetime.datetime(2026, 9, 10, 23, 59)), tradingHours(opening_time=datetime.datetime(2026, 9, 11, 0, 0), closing_time=datetime.datetime(2026, 9, 11, 4, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 11, 23, 0), closing_time=datetime.datetime(2026, 9, 11, 23, 59)), tradingHours(opening_time=datetime.datetime(2026, 9, 12, 0, 0), closing_time=datetime.datetime(2026, 9, 12, 4, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 14, 23, 0), closing_time=datetime.datetime(2026, 9, 14, 23, 59)), tradingHours(opening_time=datetime.datetime(2026, 9, 15, 0, 0), closing_time=datetime.datetime(2026, 9, 15, 4, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 15, 23, 0), closing_time=datetime.datetime(2026, 9, 15, 23, 59)), tradingHours(opening_time=datetime.datetime(2026, 9, 16, 0, 0), closing_time=datetime.datetime(2026, 9, 16, 4, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 16, 23, 0), closing_time=datetime.datetime(2026, 9, 16, 23, 59)), tradingHours(opening_time=datetime.datetime(2026, 9, 17, 0, 0), closing_time=datetime.datetime(2026, 9, 17, 4, 0))]",
+  "gate_checked_at": "2026-09-10T22:09:57.837449+08:00",
+  "status": "STOP",
+  "blocker": "Native tradability gate is False; remaining preflight not completed",
+  "disconnected": true,
+  "finished": "2026-09-10T22:09:57.837449+08:00"
+}

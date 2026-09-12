@@ -1,0 +1,112 @@
+{
+  "IBClientTracker": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "futures_contracts": [
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              12,
+              18
+            ],
+            "contract_date": "202612"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20261200"
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2027,
+              3,
+              19
+            ],
+            "contract_date": "202703"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20270300"
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              9,
+              18
+            ],
+            "contract_date": "202609"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20260900"
+    }
+  ],
+  "futures_roll_status": [
+    {
+      "roll_state": "No_Roll",
+      "instrument_code": "SP500"
+    }
+  ],
+  "limit_status": [
+    {
+      "trade_limit": 1.0,
+      "trades_since_last_reset": 0.0,
+      "last_reset_time": "2026-09-10 20:19:00.186000",
+      "instrument_strategy_key": " SP500",
+      "period_days": 1
+    }
+  ],
+  "position_limit_status": [
+    {
+      "position_limit": 1.0,
+      "marker": "instrument",
+      "instrument_code": "SP500"
+    },
+    {
+      "position_limit": 1.0,
+      "marker": "strategy_instrument",
+      "strategy_name": "sp500_target_test",
+      "instrument_code": "SP500"
+    },
+    {
+      "position_limit": 1.0,
+      "marker": "strategy_instrument",
+      "strategy_name": "sp500_execution_test",
+      "instrument_code": "SP500"
+    }
+  ]
+}

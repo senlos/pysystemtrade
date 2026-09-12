@@ -80,7 +80,7 @@ def main() -> None:
         assert result['disconnected'] and result['mongo_unchanged']
         result['status'] = 'PASS'
     finally:
-        Path('data/account_validation/result.json').write_text(json.dumps(result,indent=2,default=str),encoding='utf-8')
+        Path('project/data/account_validation/result.json').write_text(json.dumps(result,indent=2,default=str),encoding='utf-8')
         print(json.dumps(result,indent=2,default=str))
 
 if __name__ == '__main__':

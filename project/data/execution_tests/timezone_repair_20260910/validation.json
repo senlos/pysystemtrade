@@ -1,0 +1,171 @@
+{
+  "started": "2026-09-10T21:51:12.147119+08:00",
+  "GMT_offset_hours": 8,
+  "selected_file": "D:\\dev\\pysystemtrade\\private\\private_config_trading_hours.yaml",
+  "all_entries": {
+    "EDOLLAR_example": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": [
+        86370
+      ]
+    },
+    "US2_example": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    },
+    "US10_example": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    },
+    "US/Central": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": [
+        86370,
+        172770,
+        259170,
+        345570,
+        431970,
+        518370,
+        604770
+      ]
+    },
+    "US/Eastern": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": [
+        86370,
+        172770,
+        259170,
+        345570,
+        431970,
+        518370,
+        604770
+      ]
+    },
+    "GB-Eire": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": [
+        0,
+        86370,
+        86400,
+        172770,
+        172800,
+        259170,
+        259200,
+        345570,
+        345600,
+        431970,
+        432000,
+        518370,
+        518400,
+        604770
+      ]
+    },
+    "MET": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    },
+    "Japan": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    },
+    "HongKong": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    },
+    "Hongkong": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    },
+    "Australia/NSW": {
+      "no_expansion": true,
+      "only_authorized_midnight_omissions": true,
+      "omitted_half_minute_samples": []
+    }
+  },
+  "identity": [
+    649180671,
+    "ESU6",
+    "CME",
+    "USD",
+    "50",
+    "20260918",
+    0.25
+  ],
+  "timeZoneId": "US/Central",
+  "raw_tradingHours": "20260909:1700-20260910:1600;20260910:1700-20260911:1600;20260912:CLOSED;20260913:1700-20260914:1600;20260914:1700-20260915:1600;20260915:1700-20260916:1600",
+  "parsed_ib_hours": "[tradingHours(opening_time=datetime.datetime(2026, 9, 10, 8, 0), closing_time=datetime.datetime(2026, 9, 11, 5, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 11, 8, 0), closing_time=datetime.datetime(2026, 9, 12, 5, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 14, 8, 0), closing_time=datetime.datetime(2026, 9, 15, 5, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 15, 8, 0), closing_time=datetime.datetime(2026, 9, 16, 5, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 16, 8, 0), closing_time=datetime.datetime(2026, 9, 17, 5, 0))]",
+  "effective": [
+    [
+      "2026-09-10T23:00:00",
+      "2026-09-10T23:59:00"
+    ],
+    [
+      "2026-09-11T00:00:00",
+      "2026-09-11T04:00:00"
+    ],
+    [
+      "2026-09-11T23:00:00",
+      "2026-09-11T23:59:00"
+    ],
+    [
+      "2026-09-12T00:00:00",
+      "2026-09-12T04:00:00"
+    ],
+    [
+      "2026-09-14T23:00:00",
+      "2026-09-14T23:59:00"
+    ],
+    [
+      "2026-09-15T00:00:00",
+      "2026-09-15T04:00:00"
+    ],
+    [
+      "2026-09-15T23:00:00",
+      "2026-09-15T23:59:00"
+    ],
+    [
+      "2026-09-16T00:00:00",
+      "2026-09-16T04:00:00"
+    ],
+    [
+      "2026-09-16T23:00:00",
+      "2026-09-16T23:59:00"
+    ],
+    [
+      "2026-09-17T00:00:00",
+      "2026-09-17T04:00:00"
+    ]
+  ],
+  "synthetic_native_gate": {
+    "2026-09-10T22:59:59": false,
+    "2026-09-10T23:00:00": true,
+    "2026-09-10T23:30:00": true,
+    "2026-09-10T23:59:00": true,
+    "2026-09-10T23:59:30": false,
+    "2026-09-11T00:00:00": true,
+    "2026-09-11T03:59:59": true,
+    "2026-09-11T04:00:00": true,
+    "2026-09-11T04:00:01": false
+  },
+  "actual_gate_at_validation": false,
+  "disconnected": true,
+  "status": "PASS",
+  "changed_files": [
+    "private\\private_config.yaml",
+    "private\\private_config_trading_hours.yaml"
+  ],
+  "mongo_unchanged": true,
+  "historical_and_strategy_files_unchanged": true,
+  "orders_created": 0,
+  "orders_submitted": 0
+}

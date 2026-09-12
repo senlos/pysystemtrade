@@ -31,7 +31,7 @@ from sysproduction.update_multiple_adjusted_prices import (
 )
 from sysdata.mongodb.mongo_roll_state_storage import mongoRollStateData
 
-ROOT = Path('data/maintenance/sp500_20260909')
+ROOT = Path('project/data/maintenance/sp500_20260909')
 STORE = Path('data/parquet')
 DATES = {'20260900', '20261200', '20270300'}
 REPORT = ROOT / 'validation.json'
@@ -43,7 +43,7 @@ def save(report: dict) -> None:
 
 def files() -> dict:
     return {str(p): hashlib.sha256(p.read_bytes()).hexdigest()
-            for base in (STORE, Path('data/bootstrap')) for p in base.rglob('*') if p.is_file()}
+            for base in (STORE, Path('project/data/bootstrap')) for p in base.rglob('*') if p.is_file()}
 
 
 def quality(frame: pd.DataFrame) -> dict:

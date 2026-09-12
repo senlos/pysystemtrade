@@ -1,0 +1,50 @@
+{
+  "measured_at": "2026-09-12 00:39:18.853570",
+  "differential": 67.5,
+  "source_timestamp": "2026-09-11 23:00:00",
+  "roll_timestamp": "2026-09-11 23:00:01",
+  "latest": {
+    "CARRY": 7788.0,
+    "CARRY_CONTRACT": "20270300",
+    "PRICE": 7740.0,
+    "PRICE_CONTRACT": "20261200",
+    "FORWARD": 7788.0,
+    "FORWARD_CONTRACT": "20270300"
+  },
+  "latest_adjusted": 7740.0,
+  "multiple_quality": {
+    "rows": 103,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-11 23:00:01",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0
+  },
+  "adjusted_quality": {
+    "rows": 103,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-11 23:00:01",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0
+  },
+  "native_inputs": {
+    "instrument_code": "SP500",
+    "original_roll_status": "RollState.No_Roll",
+    "position_priced_contract": 0,
+    "allowable_roll_states_as_list_of_str": [
+      "Roll_Adjusted",
+      "Passive",
+      "No_Roll",
+      "No_Open"
+    ],
+    "days_until_roll": 0,
+    "relative_volume": 0.03930773319028505,
+    "absolute_forward_volume": 35688,
+    "days_until_expiry": 5
+  },
+  "status": "FAIL",
+  "error": "AssertionError('DataFrame.columns are different\\n\\nAttribute \"inferred_type\" are different\\n[left]:  string\\n[right]: integer')"
+}

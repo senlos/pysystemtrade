@@ -18,7 +18,7 @@ from sysobjects.multiple_prices import futuresMultiplePrices
 from sysobjects.adjusted_prices import futuresAdjustedPrices
 
 ROOT = Path(__file__).resolve().parents[2]
-ARCHIVE = ROOT / "data/bootstrap/sp500_first_roll"
+ARCHIVE = ROOT / "project/data/bootstrap/sp500_first_roll"
 STORE = ROOT / "data/parquet"
 IDENTITIES = {
     "20260600": (649180678, "ESM6", "20260618"),

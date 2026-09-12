@@ -1,0 +1,236 @@
+Configuring sim logging
+{
+  "contracts": {
+    "20260900": {
+      "daily": {
+        "rows": 134,
+        "first": "2026-03-04 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 0,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 134,
+        "first": "2026-03-04 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 0,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    },
+    "20261200": {
+      "daily": {
+        "rows": 255,
+        "first": "2025-09-08 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 125,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 255,
+        "first": "2025-09-08 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 125,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    },
+    "20270300": {
+      "daily": {
+        "rows": 253,
+        "first": "2025-09-09 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 209,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 253,
+        "first": "2025-09-09 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 209,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    }
+  },
+  "multiple": {
+    "rows": 102,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-11 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-08 23:00:00",
+    "rows_added": 3,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "adjusted": {
+    "rows": 102,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-11 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-08 23:00:00",
+    "rows_added": 3,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "latest_multiple": {
+    "CARRY": 7740.0,
+    "CARRY_CONTRACT": "20261200",
+    "PRICE": 7672.5,
+    "PRICE_CONTRACT": "20260900",
+    "FORWARD": 7740.0,
+    "FORWARD_CONTRACT": "20261200"
+  },
+  "latest_adjusted": 7672.5,
+  "overlaps": {
+    "20260900_20261200": {
+      "rows": 133,
+      "first": "2026-03-04 23:00:00",
+      "last": "2026-09-11 23:00:00",
+      "positive_volume_rows": 122,
+      "last_positive_volume": "2026-09-11 23:00:00",
+      "latest": {
+        "OPEN_a": 7665.0,
+        "HIGH_a": 7682.0,
+        "LOW_a": 7653.25,
+        "FINAL_a": 7672.5,
+        "VOLUME_a": 636684.0,
+        "OPEN_b": 7732.25,
+        "HIGH_b": 7749.75,
+        "LOW_b": 7720.75,
+        "FINAL_b": 7740.0,
+        "VOLUME_b": 44647.0
+      }
+    },
+    "20261200_20270300": {
+      "rows": 253,
+      "first": "2025-09-09 23:00:00",
+      "last": "2026-09-11 23:00:00",
+      "positive_volume_rows": 42,
+      "last_positive_volume": "2026-09-10 23:00:00",
+      "latest": {
+        "OPEN_a": 7732.25,
+        "HIGH_a": 7749.75,
+        "LOW_a": 7720.75,
+        "FINAL_a": 7740.0,
+        "VOLUME_a": 44647.0,
+        "OPEN_b": 7788.0,
+        "HIGH_b": 7788.0,
+        "LOW_b": 7788.0,
+        "FINAL_b": 7788.0,
+        "VOLUME_b": 0.0
+      }
+    }
+  },
+  "readiness": {
+    "current_contracts": {
+      "CARRY": "20261200",
+      "FORWARD": "20261200",
+      "PRICE": "20260900"
+    },
+    "roll_state": "No_Roll",
+    "next_price": "20261200",
+    "next_forward": "20270300",
+    "next_carry": "20270300",
+    "desired_roll_date": "2026-09-13 00:00:00",
+    "measured_at": "2026-09-12 00:36:41.851110",
+    "smoothed_relative_forward_volume": 0.03930773319028505,
+    "smoothed_absolute_forward_volume": 35688.90019569472,
+    "configured_auto_roll_parameters": {
+      "auto_roll_if_relative_volume_higher_than": 1.0,
+      "min_relative_volume": 0.01,
+      "min_absolute_volume": 100,
+      "near_expiry_days": 10,
+      "default_roll_state_if_undecided": "Ask",
+      "auto_roll_expired": true
+    },
+    "forward_liquid": true
+  },
+  "native_roll_review": {
+    "inputs": {
+      "instrument_code": "SP500",
+      "original_roll_status": "RollState.No_Roll",
+      "position_priced_contract": 0,
+      "allowable_roll_states_as_list_of_str": [
+        "Roll_Adjusted",
+        "Passive",
+        "No_Roll",
+        "No_Open"
+      ],
+      "days_until_roll": 0,
+      "relative_volume": 0.03930773319028505,
+      "absolute_forward_volume": 35688,
+      "days_until_expiry": 5
+    },
+    "parameters": {
+      "auto_roll_if_relative_volume_higher_than": 1.0,
+      "min_relative_volume": 0.01,
+      "min_absolute_volume": 100,
+      "near_expiry_days": 10,
+      "default_roll_state_if_undecided": "Ask",
+      "auto_roll_expired": true
+    },
+    "suggestion": "RollState.Roll_Adjusted",
+    "forward_liquid": true
+  },
+  "registered_transition_timestamps": [
+    "2026-06-11 23:00:00"
+  ]
+}

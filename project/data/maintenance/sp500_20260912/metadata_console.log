@@ -1,0 +1,188 @@
+Configuring sim logging
+2026-09-12 00:35:31 DEBUG SP500-maintenance-validation {'component': 'mongoIbBrokerClientIdData'} Locked IB client ID 100
+2026-09-12 00:35:31 DEBUG asyncio Using proactor: IocpProactor
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2106, reqId -1: HMDS data farm connection is OK:apachmds
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2106, reqId -1: HMDS data farm connection is OK:cashhmds
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2026-09-12 00:35:31 WARNING ib_async.wrapper Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk
+2026-09-12 00:35:36 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20260900'} No change to contract expiry SP500/20260900 to 2026-09-18 00:00:00
+2026-09-12 00:35:36 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20261200'} No change to contract expiry SP500/20261200 to 2026-12-18 00:00:00
+2026-09-12 00:35:36 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20270300'} No change to contract expiry SP500/20270300 to 2027-03-19 00:00:00
+2026-09-12 00:35:36 DEBUG SP500-maintenance-validation All key contracts for SP500 are still active
+2026-09-12 00:35:36 DEBUG connectionIB {'type': 'SP500-maintenance-validation', 'broker': 'IB', 'clientid': 100} Terminating {'ipaddress': '127.0.0.1', 'port': 4002, 'client': 100}
+2026-09-12 00:35:36 DEBUG SP500-maintenance-validation {'component': 'mongoIbBrokerClientIdData'} Released IB client ID 100
+{
+  "metadata_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "storage": "D:\\dev\\pysystemtrade\\data\\parquet",
+  "metadata_before": [
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              9,
+              18
+            ],
+            "contract_date": "202609"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20260900"
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              12,
+              18
+            ],
+            "contract_date": "202612"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20261200"
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2027,
+              3,
+              19
+            ],
+            "contract_date": "202703"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20270300"
+    }
+  ],
+  "metadata_after": [
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              9,
+              18
+            ],
+            "contract_date": "202609"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              12,
+              18
+            ],
+            "contract_date": "202612"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2027,
+              3,
+              19
+            ],
+            "contract_date": "202703"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    }
+  ],
+  "roll_parameters": {
+    "hold_rollcycle": "HMUZ",
+    "priced_rollcycle": "HMUZ",
+    "roll_offset_day": -5,
+    "carry_offset": 1,
+    "approx_expiry_offset": 14
+  },
+  "desired_roll_date": "2026-09-13 00:00:00",
+  "roll_state": "No_Roll",
+  "cleaning": {
+    "ignore_future_prices": true,
+    "ignore_prices_with_zero_volumes_daily": false,
+    "ignore_prices_with_zero_volumes_intraday": true,
+    "ignore_zero_prices": true,
+    "ignore_negative_prices": false,
+    "max_price_spike": 8.0
+  },
+  "metadata_client_id": 100,
+  "metadata_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "metadata_client_ids_released": true
+}

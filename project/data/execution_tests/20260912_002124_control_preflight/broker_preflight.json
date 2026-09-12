@@ -1,0 +1,43 @@
+{
+  "managed_accounts": [
+    "DUT077119"
+  ],
+  "contract": {
+    "secType": "FUT",
+    "conId": 649180671,
+    "symbol": "ES",
+    "lastTradeDateOrContractMonth": "20260918",
+    "strike": 0.0,
+    "right": "",
+    "multiplier": "50",
+    "exchange": "CME",
+    "primaryExchange": "",
+    "currency": "USD",
+    "localSymbol": "ESU6",
+    "tradingClass": "ES",
+    "includeExpired": false,
+    "secIdType": "",
+    "secId": "",
+    "description": "",
+    "issuerId": "",
+    "comboLegsDescrip": "",
+    "comboLegs": [],
+    "deltaNeutralContract": null
+  },
+  "min_tick": 0.25,
+  "trading_hours": "20260910:1700-20260911:1600;20260912:CLOSED;20260913:1700-20260914:1600;20260914:1700-20260915:1600;20260915:1700-20260916:1600;20260916:1700-20260917:1600",
+  "liquid_hours": "20260911:0830-20260911:1600;20260912:CLOSED;20260913:CLOSED;20260914:0830-20260914:1600;20260915:0830-20260915:1600;20260916:0830-20260916:1600;20260916:1700-20260917:1600",
+  "timezone": "US/Central",
+  "all_client_open_orders": [],
+  "executions": [],
+  "ES_positions": [],
+  "observed_at": "2026-09-11T16:23:52.393669+00:00",
+  "quote_time": "None",
+  "bid": NaN,
+  "ask": NaN,
+  "bid_size": NaN,
+  "ask_size": NaN,
+  "market_data_type": 1,
+  "quote_valid": false,
+  "disconnected": true
+}

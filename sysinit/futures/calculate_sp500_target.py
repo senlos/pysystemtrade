@@ -44,7 +44,7 @@ def last(series) -> float:
 
 
 def main(verify_existing: bool = False) -> None:
-    out = ROOT / "data/strategy_target/sp500_target_test"
+    out = ROOT / "project/data/strategy_target/sp500_target_test"
     out.mkdir(parents=True, exist_ok=True)
     with patch.object(dataBlob, "_get_new_ib_connection",
                       side_effect=RuntimeError("Broker access forbidden in target audit")) as broker_guard:

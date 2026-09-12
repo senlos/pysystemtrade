@@ -42,6 +42,17 @@ Keep these components separated:
 
 ## Workflow
 
+Before starting work, read the local project documentation relevant to the task:
+
+1. `project/README.md`
+2. `project/docs/state/PROJECT_STATE.md`
+3. `project/docs/state/OPEN_ISSUES.md`
+4. `project/docs/decisions/DECISIONS.md`
+
+Generated local evidence is under `project/data/`; consult historical evidence only
+when it is relevant to the active task. Interactive learning work belongs under
+`project/notebooks/`. Preserve the upstream source and runtime layout.
+
 Before major changes:
 
 1. inspect relevant code

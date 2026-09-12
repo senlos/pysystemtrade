@@ -1,0 +1,103 @@
+Configuring sim logging
+********************************************************************************
+
+Rolling adjusted prices!
+
+Current multiple prices
+
+                       CARRY CARRY_CONTRACT  ...  FORWARD FORWARD_CONTRACT
+index                                        ...                          
+2026-09-03 23:00:00  7822.00       20261200  ...  7822.00         20261200
+2026-09-04 23:00:00  7789.25       20261200  ...  7789.25         20261200
+2026-09-08 23:00:00  7747.25       20261200  ...  7747.25         20261200
+2026-09-09 23:00:00  7709.50       20261200  ...  7709.50         20261200
+2026-09-10 23:00:00  7664.50       20261200  ...  7664.50         20261200
+2026-09-11 23:00:00  7740.00       20261200  ...  7740.00         20261200
+
+[6 rows x 6 columns]
+
+New multiple prices
+
+                       CARRY CARRY_CONTRACT  ...  FORWARD FORWARD_CONTRACT
+index                                        ...                          
+2026-09-04 23:00:00  7789.25       20261200  ...  7789.25         20261200
+2026-09-08 23:00:00  7747.25       20261200  ...  7747.25         20261200
+2026-09-09 23:00:00  7709.50       20261200  ...  7709.50         20261200
+2026-09-10 23:00:00  7664.50       20261200  ...  7664.50         20261200
+2026-09-11 23:00:00  7740.00       20261200  ...  7740.00         20261200
+2026-09-11 23:00:01  7788.00       20270300  ...  7788.00         20270300
+
+[6 rows x 6 columns]
+
+Current adjusted prices
+
+index
+2026-09-03 23:00:00    7754.75
+2026-09-04 23:00:00    7722.00
+2026-09-08 23:00:00    7680.50
+2026-09-09 23:00:00    7643.75
+2026-09-10 23:00:00    7598.50
+2026-09-11 23:00:00    7672.50
+Name: price, dtype: float64
+
+New adjusted prices
+
+index
+2026-09-04 23:00:00    7789.50
+2026-09-08 23:00:00    7748.00
+2026-09-09 23:00:00    7711.25
+2026-09-10 23:00:00    7666.00
+2026-09-11 23:00:00    7740.00
+2026-09-11 23:00:01    7740.00
+dtype: float64
+
+
+********************************************
+AUTO ROLLING - NO USER CONFIRMATION REQUIRED
+********************************************
+2026-09-12 00:39:18 DEBUG SP500-normal-roll {'component': 'parquetFuturesMultiplePricesData', 'instrument_code': 'SP500'} Wrote 103 lines of prices for SP500 to parquetFuturesMultiplePricesData
+2026-09-12 00:39:18 INFO SP500-normal-roll {'component': 'parquetFuturesMultiplePricesData', 'instrument_code': 'SP500'} Added data for instrument SP500
+2026-09-12 00:39:18 DEBUG SP500-normal-roll {'component': 'parquetFuturesAdjustedPricesData', 'instrument_code': 'SP500'} Wrote 103 lines of prices for SP500 to parquetFuturesAdjustedPrices
+2026-09-12 00:39:18 INFO SP500-normal-roll {'component': 'parquetFuturesAdjustedPricesData', 'instrument_code': 'SP500'} Added data for instrument SP500
+2026-09-12 00:39:18 DEBUG SP500-normal-roll Successful roll! Returning roll state of SP500 to RollState.No_Roll
+2026-09-12 00:39:18 ERROR root SP500 roll audit failed
+Traceback (most recent call last):
+  File "D:\dev\pysystemtrade\data\maintenance\sp500_20260912\roll.py", line 90, in main
+    pd.testing.assert_frame_equal(normalized(prices.get_adjusted_prices('SP500')), normalized(new_a))
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 1170, in assert_frame_equal
+    assert_index_equal(
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 260, in assert_index_equal
+    _check_types(left, right, obj=obj)
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 236, in _check_types
+    assert_attr_equal("inferred_type", left, right, obj=obj)
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 414, in assert_attr_equal
+    raise_assert_detail(obj, msg, left_attr, right_attr)
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 598, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame.columns are different
+
+Attribute "inferred_type" are different
+[left]:  string
+[right]: integer
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\dev\pysystemtrade\data\maintenance\sp500_20260912\roll.py", line 110, in <module>
+    main(execute='--execute' in sys.argv)
+  File "D:\dev\pysystemtrade\data\maintenance\sp500_20260912\roll.py", line 90, in main
+    pd.testing.assert_frame_equal(normalized(prices.get_adjusted_prices('SP500')), normalized(new_a))
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 1170, in assert_frame_equal
+    assert_index_equal(
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 260, in assert_index_equal
+    _check_types(left, right, obj=obj)
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 236, in _check_types
+    assert_attr_equal("inferred_type", left, right, obj=obj)
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 414, in assert_attr_equal
+    raise_assert_detail(obj, msg, left_attr, right_attr)
+  File "D:\dev\pysystemtrade\.venv-py312\Lib\site-packages\pandas\_testing\asserters.py", line 598, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame.columns are different
+
+Attribute "inferred_type" are different
+[left]:  string
+[right]: integer

@@ -1,0 +1,542 @@
+Configuring sim logging
+2026-09-12 00:35:50 DEBUG SP500-maintenance-validation {'component': 'mongoIbBrokerClientIdData'} Locked IB client ID 100
+2026-09-12 00:35:50 DEBUG asyncio Using proactor: IocpProactor
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:hfarm
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2106, reqId -1: HMDS data farm connection is OK:apachmds
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2106, reqId -1: HMDS data farm connection is OK:cashhmds
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2026-09-12 00:35:50 WARNING ib_async.wrapper Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation {'component': 'ibFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20260900'} Updating log attributes
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation Log attributes reset
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20260900'} Wrote 134 lines of prices for SP500/20260900 at Frequency.Day to parquetFuturesContractPriceData
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData'} Added 3 additional rows of data
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation Added 3 rows at frequency Frequency.Day for SP500/20260900
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20260900'} Wrote 134 lines of prices for SP500/20260900 at Frequency.Mixed to parquetFuturesContractPriceData
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20261200'} Updating log attributes
+2026-09-12 00:35:56 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20261200'} Pausing 0.404602 seconds to avoid pacing violation
+2026-09-12 00:35:57 DEBUG SP500-maintenance-validation Log attributes reset
+2026-09-12 00:35:57 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20261200'} Wrote 255 lines of prices for SP500/20261200 at Frequency.Day to parquetFuturesContractPriceData
+2026-09-12 00:35:57 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData'} Added 3 additional rows of data
+2026-09-12 00:35:57 DEBUG SP500-maintenance-validation Added 3 rows at frequency Frequency.Day for SP500/20261200
+2026-09-12 00:35:57 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20261200'} Wrote 255 lines of prices for SP500/20261200 at Frequency.Mixed to parquetFuturesContractPriceData
+2026-09-12 00:35:58 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20270300'} Updating log attributes
+2026-09-12 00:35:58 DEBUG SP500-maintenance-validation {'instrument_code': 'SP500', 'contract_date': '20270300'} Pausing 0.413607 seconds to avoid pacing violation
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation Log attributes reset
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20270300'} Wrote 253 lines of prices for SP500/20270300 at Frequency.Day to parquetFuturesContractPriceData
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData'} Added 3 additional rows of data
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation Added 3 rows at frequency Frequency.Day for SP500/20270300
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesContractPriceData', 'instrument_code': 'SP500', 'contract_date': '20270300'} Wrote 253 lines of prices for SP500/20270300 at Frequency.Mixed to parquetFuturesContractPriceData
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesMultiplePricesData', 'instrument_code': 'SP500'} Wrote 102 lines of prices for SP500 to parquetFuturesMultiplePricesData
+2026-09-12 00:35:59 INFO SP500-maintenance-validation {'component': 'parquetFuturesMultiplePricesData', 'instrument_code': 'SP500'} Added data for instrument SP500
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation {'component': 'parquetFuturesAdjustedPricesData', 'instrument_code': 'SP500'} Wrote 102 lines of prices for SP500 to parquetFuturesAdjustedPrices
+2026-09-12 00:35:59 INFO SP500-maintenance-validation {'component': 'parquetFuturesAdjustedPricesData', 'instrument_code': 'SP500'} Added data for instrument SP500
+2026-09-12 00:35:59 DEBUG connectionIB {'type': 'SP500-maintenance-validation', 'broker': 'IB', 'clientid': 100} Terminating {'ipaddress': '127.0.0.1', 'port': 4002, 'client': 100}
+2026-09-12 00:35:59 DEBUG SP500-maintenance-validation {'component': 'mongoIbBrokerClientIdData'} Released IB client ID 100
+{
+  "metadata_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "storage": "D:\\dev\\pysystemtrade\\data\\parquet",
+  "metadata_before": [
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              9,
+              18
+            ],
+            "contract_date": "202609"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20260900"
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              12,
+              18
+            ],
+            "contract_date": "202612"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20261200"
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2027,
+              3,
+              19
+            ],
+            "contract_date": "202703"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      },
+      "contract_key": "SP500/20270300"
+    }
+  ],
+  "metadata_after": [
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              9,
+              18
+            ],
+            "contract_date": "202609"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2026,
+              12,
+              18
+            ],
+            "contract_date": "202612"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    },
+    {
+      "contract_date_dict": {
+        "contract_list": [
+          {
+            "expiry_date": [
+              2027,
+              3,
+              19
+            ],
+            "contract_date": "202703"
+          }
+        ]
+      },
+      "instrument_dict": {
+        "instrument_code": "SP500"
+      },
+      "contract_params": {
+        "sampling": true
+      }
+    }
+  ],
+  "roll_parameters": {
+    "hold_rollcycle": "HMUZ",
+    "priced_rollcycle": "HMUZ",
+    "roll_offset_day": -5,
+    "carry_offset": 1,
+    "approx_expiry_offset": 14
+  },
+  "desired_roll_date": "2026-09-13 00:00:00",
+  "roll_state": "No_Roll",
+  "cleaning": {
+    "ignore_future_prices": true,
+    "ignore_prices_with_zero_volumes_daily": false,
+    "ignore_prices_with_zero_volumes_intraday": true,
+    "ignore_zero_prices": true,
+    "ignore_negative_prices": false,
+    "max_price_spike": 8.0
+  },
+  "metadata_client_id": 100,
+  "metadata_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "metadata_client_ids_released": true,
+  "prices_client_ids_before": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "hashes_before": {
+    "data\\parquet\\capital\\sp500_target_test.parquet": "f92877b836b8779ebd0ca2ccce479c0f5f13800f61ee21c027f5ee48ffefd221",
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet": "de465d528bfd86a98b883b8eba27f42b22cf9bbb5d4ceeacfe1f17685ad7652a",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet": "4a580c64dd85b9918bfd5aa724c609dea866d08839e7defcbf9c3af2219fbcee",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet": "99aa0eef6c5cbe3b5e0d53fbe08d814bdfa2fdc86565b4e54fb27aabb32ba1aa",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20270300.parquet": "d63988c7d810e81b2a4680329dabc91be8cf5627da3cb435bff66393a7b468b5",
+    "data\\parquet\\futures_contract_prices\\SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet": "e9aa9a6fe6f28b439a44d5a731a0fc9a474155c1b37aa42011e3144b09477682",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet": "cf1aadf823d4904a0a82d642bfb4f7796afd21fbd9aaac393b4179419cb34cfa",
+    "data\\parquet\\futures_contract_prices\\SP500#20270300.parquet": "dee7a4a80ee6ae2bc3911a91105475ead96f0816b60e4033f3bcb1fa3b64d4e8",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet": "7963179490f93f63bcf5802f8dec2ad2213c1c84ea096fee464ce7f5d21a2b2e",
+    "data\\parquet\\optimal_positions\\sp500_target_test SP500.parquet": "37eabb854505fcfd90666a24489e972b032b99c64efccd389292c21d64ffbab0",
+    "data\\parquet\\spotfx_prices\\AUDUSD.parquet": "2f8c8de6bc0011f6ef284250009024e9b8028796a33ce9b82134078511015ea8",
+    "data\\parquet\\spotfx_prices\\CADUSD.parquet": "f83b62fa4173b4945764483021d8b6fa3ad861df9b760e82e0c2f7375d295bbc",
+    "data\\parquet\\spotfx_prices\\CHFUSD.parquet": "2f0e94dfe6b5085fbfe0540acba3efefc92612401f3c7a43d72aaf6b3f315432",
+    "data\\parquet\\spotfx_prices\\CNHUSD.parquet": "8c18c173fafc28394bc0961f105145184d783848bf4212700754f2d1dddde2ea",
+    "data\\parquet\\spotfx_prices\\EURUSD.parquet": "3ef9d456b991524ba80d151a046b5b93d19d9ef3d2cf3e048e0ae35e63266693",
+    "data\\parquet\\spotfx_prices\\GBPUSD.parquet": "51480254608602a027dbb9cbdc53c4fead43d92fb248f9081d44a0a3e582f5f4",
+    "data\\parquet\\spotfx_prices\\HKDUSD.parquet": "484f9efa0838ed0a72c245a4244b5af0b4b0193f83f480e94c78264b8f58ef05",
+    "data\\parquet\\spotfx_prices\\JPYUSD.parquet": "11e504ab8772179e00d5d759fc90afd4210a7957f023731de1495a0aa7191b99",
+    "data\\parquet\\spotfx_prices\\KRWUSD.parquet": "1545d53e78dab07f20d73ae78f7d11b08006ed205109a13ffe2aa9e32292b8a5",
+    "data\\parquet\\spotfx_prices\\MXPUSD.parquet": "16772b71c9353951457bec01079a6469f8812bf5b3589c2bc1767bd0352b7d81",
+    "data\\parquet\\spotfx_prices\\SEKUSD.parquet": "9e1e4d97265c67be2ee806098f76fb04fee9957f57b9d784d6fea5723ecbff5d",
+    "data\\parquet\\spotfx_prices\\SGDUSD.parquet": "59893736e9d8165097930ca33e508f67732261ad2c202101fc11cde9d940f94c",
+    "data\\bootstrap\\sp500_first_roll\\20260600_raw.parquet": "9db780150a19d2433ec66bdafafdb9173cc1e4fa269427c4af3798d1a3682fa8",
+    "data\\bootstrap\\sp500_first_roll\\20260900_raw.parquet": "674ddc9861193c57f57f65f0043b1c23d889ce26192ec046deffff630096d899",
+    "data\\bootstrap\\sp500_first_roll\\bounded_calendar.csv": "1c2d699326f4b1bc80bc31540b5f86bd067db884b80580d37cfb5c93924473a7",
+    "data\\bootstrap\\sp500_first_roll\\identities.json": "e72301d167a19bf96825a3f0d6bdc517ac6319a366b4a0ec1d1442d03a6aa294",
+    "data\\bootstrap\\sp500_first_roll\\validation.json": "b1693b0a01a7839e3470d4736f752ad3a1ca96173afdf62ca6c8b75ec4cb3d04"
+  },
+  "contracts": {
+    "20260900": {
+      "daily": {
+        "rows": 134,
+        "first": "2026-03-04 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 0,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 134,
+        "first": "2026-03-04 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 0,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    },
+    "20261200": {
+      "daily": {
+        "rows": 255,
+        "first": "2025-09-08 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 125,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 255,
+        "first": "2025-09-08 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 125,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    },
+    "20270300": {
+      "daily": {
+        "rows": 253,
+        "first": "2025-09-09 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 209,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      },
+      "merged": {
+        "rows": 253,
+        "first": "2025-09-09 23:00:00",
+        "latest": "2026-09-11 23:00:00",
+        "duplicates": 0,
+        "nulls": 0,
+        "ordered": true,
+        "nonfinite": 0,
+        "bad_ohlc": 0,
+        "negative_volume": 0,
+        "zero_volume": 209,
+        "previous_latest": "2026-09-08 23:00:00",
+        "rows_added": 3,
+        "removed_timestamps": 0,
+        "changed_existing_timestamps": []
+      }
+    }
+  },
+  "requests": [
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 649180671,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20260918",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESU6",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 251
+    },
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 515416632,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20261218",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESZ6",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    },
+    {
+      "contract": {
+        "secType": "FUT",
+        "conId": 649180684,
+        "symbol": "ES",
+        "lastTradeDateOrContractMonth": "20270319",
+        "strike": 0.0,
+        "right": "",
+        "multiplier": "50",
+        "exchange": "CME",
+        "primaryExchange": "",
+        "currency": "USD",
+        "localSymbol": "ESH7",
+        "tradingClass": "ES",
+        "includeExpired": false,
+        "secIdType": "",
+        "secId": "",
+        "description": "",
+        "issuerId": "",
+        "comboLegsDescrip": "",
+        "comboLegs": [],
+        "deltaNeutralContract": null
+      },
+      "endDateTime": "",
+      "durationStr": "1 Y",
+      "barSizeSetting": "1 day",
+      "whatToShow": "TRADES",
+      "useRTH": true,
+      "formatDate": 2,
+      "timeout": 20,
+      "rows": 250
+    }
+  ],
+  "multiple": {
+    "rows": 102,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-11 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-08 23:00:00",
+    "rows_added": 3,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "adjusted": {
+    "rows": 102,
+    "first": "2026-04-17 23:00:00",
+    "latest": "2026-09-11 23:00:00",
+    "duplicates": 0,
+    "nulls": 0,
+    "ordered": true,
+    "nonfinite": 0,
+    "previous_latest": "2026-09-08 23:00:00",
+    "rows_added": 3,
+    "removed_timestamps": 0,
+    "changed_existing_timestamps": []
+  },
+  "latest_multiple": {
+    "CARRY": 7740.0,
+    "CARRY_CONTRACT": "20261200",
+    "PRICE": 7672.5,
+    "PRICE_CONTRACT": "20260900",
+    "FORWARD": 7740.0,
+    "FORWARD_CONTRACT": "20261200"
+  },
+  "latest_adjusted": 7672.5,
+  "hashes_after": {
+    "data\\parquet\\capital\\sp500_target_test.parquet": "f92877b836b8779ebd0ca2ccce479c0f5f13800f61ee21c027f5ee48ffefd221",
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet": "5b0d10375bdbfa516256e9006cdf78cee2bd34115ef173e2907967b5706cdb5d",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet": "3779659d8bdda7e8290c98682b8586b53c1aa9d74188f557614886cea13c3350",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet": "b28c6201f36f5e140b6a86a9117aeeae3968201eaca1ecff58194900ba3bd509",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20270300.parquet": "e143ac9c9f369d3add53aad3a03547c67230f3cc5f30fb7156b76ec1e4f6f820",
+    "data\\parquet\\futures_contract_prices\\SP500#20260600.parquet": "7e851211d42eab76fbcbacec9d6d4f034fcbc0e4b5da3dc5bcd036452f646b24",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet": "e6c34ad5685dbf0dc85f12f8c85fa929a4f272ba9feaa48e1ad32bb694099874",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet": "ba9658460a82473d81a72cf67027e64686dadd53aeef3075178e738e029ade09",
+    "data\\parquet\\futures_contract_prices\\SP500#20270300.parquet": "ef91e9e19305ec1dd272f01dde99afcf2c62dda2dfefdc5ee16832dceb42c524",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet": "f480fb11415e4fd23d72521d1f79acced8652f990ec9bb5a01981d754c0604e4",
+    "data\\parquet\\optimal_positions\\sp500_target_test SP500.parquet": "37eabb854505fcfd90666a24489e972b032b99c64efccd389292c21d64ffbab0",
+    "data\\parquet\\spotfx_prices\\AUDUSD.parquet": "2f8c8de6bc0011f6ef284250009024e9b8028796a33ce9b82134078511015ea8",
+    "data\\parquet\\spotfx_prices\\CADUSD.parquet": "f83b62fa4173b4945764483021d8b6fa3ad861df9b760e82e0c2f7375d295bbc",
+    "data\\parquet\\spotfx_prices\\CHFUSD.parquet": "2f0e94dfe6b5085fbfe0540acba3efefc92612401f3c7a43d72aaf6b3f315432",
+    "data\\parquet\\spotfx_prices\\CNHUSD.parquet": "8c18c173fafc28394bc0961f105145184d783848bf4212700754f2d1dddde2ea",
+    "data\\parquet\\spotfx_prices\\EURUSD.parquet": "3ef9d456b991524ba80d151a046b5b93d19d9ef3d2cf3e048e0ae35e63266693",
+    "data\\parquet\\spotfx_prices\\GBPUSD.parquet": "51480254608602a027dbb9cbdc53c4fead43d92fb248f9081d44a0a3e582f5f4",
+    "data\\parquet\\spotfx_prices\\HKDUSD.parquet": "484f9efa0838ed0a72c245a4244b5af0b4b0193f83f480e94c78264b8f58ef05",
+    "data\\parquet\\spotfx_prices\\JPYUSD.parquet": "11e504ab8772179e00d5d759fc90afd4210a7957f023731de1495a0aa7191b99",
+    "data\\parquet\\spotfx_prices\\KRWUSD.parquet": "1545d53e78dab07f20d73ae78f7d11b08006ed205109a13ffe2aa9e32292b8a5",
+    "data\\parquet\\spotfx_prices\\MXPUSD.parquet": "16772b71c9353951457bec01079a6469f8812bf5b3589c2bc1767bd0352b7d81",
+    "data\\parquet\\spotfx_prices\\SEKUSD.parquet": "9e1e4d97265c67be2ee806098f76fb04fee9957f57b9d784d6fea5723ecbff5d",
+    "data\\parquet\\spotfx_prices\\SGDUSD.parquet": "59893736e9d8165097930ca33e508f67732261ad2c202101fc11cde9d940f94c",
+    "data\\bootstrap\\sp500_first_roll\\20260600_raw.parquet": "9db780150a19d2433ec66bdafafdb9173cc1e4fa269427c4af3798d1a3682fa8",
+    "data\\bootstrap\\sp500_first_roll\\20260900_raw.parquet": "674ddc9861193c57f57f65f0043b1c23d889ce26192ec046deffff630096d899",
+    "data\\bootstrap\\sp500_first_roll\\bounded_calendar.csv": "1c2d699326f4b1bc80bc31540b5f86bd067db884b80580d37cfb5c93924473a7",
+    "data\\bootstrap\\sp500_first_roll\\identities.json": "e72301d167a19bf96825a3f0d6bdc517ac6319a366b4a0ec1d1442d03a6aa294",
+    "data\\bootstrap\\sp500_first_roll\\validation.json": "b1693b0a01a7839e3470d4736f752ad3a1ca96173afdf62ca6c8b75ec4cb3d04"
+  },
+  "changed_files": [
+    "data\\parquet\\futures_adjusted_prices\\SP500.parquet",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20260900.parquet",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20261200.parquet",
+    "data\\parquet\\futures_contract_prices\\Day@SP500#20270300.parquet",
+    "data\\parquet\\futures_contract_prices\\SP500#20260900.parquet",
+    "data\\parquet\\futures_contract_prices\\SP500#20261200.parquet",
+    "data\\parquet\\futures_contract_prices\\SP500#20270300.parquet",
+    "data\\parquet\\futures_multiple_prices\\SP500.parquet"
+  ],
+  "price_update_passed": true,
+  "prices_client_id": 100,
+  "prices_client_ids_after": [
+    {
+      "client_id": 106
+    },
+    {
+      "client_id": 107
+    },
+    {
+      "client_id": 108
+    }
+  ],
+  "prices_client_ids_released": true
+}

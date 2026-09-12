@@ -1,0 +1,21 @@
+{
+  "started": "2026-09-10T12:36:09.153147+00:00",
+  "paper_identity": "Fresh user TWS confirmation accepted",
+  "configured_account": "DUT077119",
+  "all_client_open_orders": [],
+  "executions": [],
+  "contract": {
+    "conId": 649180671,
+    "localSymbol": "ESU6",
+    "exchange": "CME",
+    "currency": "USD",
+    "multiplier": "50",
+    "expiry": "20260918",
+    "minTick": 0.25
+  },
+  "tradable": false,
+  "trading_hours": "[tradingHours(opening_time=datetime.datetime(2026, 9, 10, 15, 0), closing_time=datetime.datetime(2026, 9, 10, 20, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 11, 15, 0), closing_time=datetime.datetime(2026, 9, 11, 20, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 14, 15, 0), closing_time=datetime.datetime(2026, 9, 14, 20, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 15, 15, 0), closing_time=datetime.datetime(2026, 9, 15, 20, 0)), tradingHours(opening_time=datetime.datetime(2026, 9, 16, 15, 0), closing_time=datetime.datetime(2026, 9, 16, 20, 0))]",
+  "status": "STOP",
+  "error": "AssertionError('Native contract tradability gate failed')",
+  "finished": "2026-09-10T12:36:14.542736+00:00"
+}
