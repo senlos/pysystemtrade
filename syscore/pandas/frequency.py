@@ -222,7 +222,11 @@ def reindex_last_monthly_include_first_date(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return df
 
-    df_monthly_index = list(df.resample("1M").last().index)  ## last day in month
+    # pandas 3.0 removed the legacy month-end alias "M". The offset object
+    # preserves the same semantics on both the pinned pandas 2.1 and pandas 3.
+    df_monthly_index = list(
+        df.resample(pd.offsets.MonthEnd()).last().index
+    )  ## last day in month
     df_first_date_in_index = df.index[0]
     df_monthly_index = [df_first_date_in_index] + df_monthly_index
     df_reindex = df.reindex(df_monthly_index).ffill()
